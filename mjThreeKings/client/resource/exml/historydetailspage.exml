@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="historydetails" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel id="mainPanel" y="153" skinName="mojingskins.Panel6Skin" x="1">
+		<e:Image x="266" y="-8" source="title_zhanjixiangqing_png"/>
+		<e:Label text="多次参赛时仅显示最佳武将阵容及最高排名" x="147.66" y="79.01" size="24" fontFamily="Microsoft YaHei" textColor="0xb77122"/>
+		<e:Scroller width="710" height="750" x="19.03" y="111.6">
+			<e:List id="list_data" width="710" height="750" x="1"/>
+		</e:Scroller>
+		<e:Button id="playback" label="战斗回放" x="249" y="879" skinName="mojingskins.YellowButton2Skin"/>
+	</e:Panel>
+	<e:Image source="checktest_jpg" alpha="0.4" locked="true" visible="false"/>
+</e:Skin>

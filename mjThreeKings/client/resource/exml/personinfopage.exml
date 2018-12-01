@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="personinfopage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">	
+	<e:Image source="个人信息_jpg" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Panel width="750" height="973" y="131.08" horizontalCenter="0">
+		<e:Image source="grxx_Title_ZhuGong_png" x="334.18" y="34.87"/>
+		<e:Panel id="panel_base" width="674" height="226" y="130" horizontalCenter="0">
+			<e:Label text="姓名：" size="24" fontFamily="Microsoft YaHei" y="33.24000000000001" x="182.07" textColor="0x785d46" scaleX="1" scaleY="1"/>
+			<e:Label id="label_name" text="玩家的名字" size="24" fontFamily="Microsoft YaHei" y="34.74000000000001" x="256.57" textColor="0x3a2213" scaleX="1" scaleY="1"/>
+			<e:Label text="ID：" size="24" fontFamily="Microsoft YaHei" y="35.04000000000002" x="450.21" textColor="0x785D46" scaleX="1" scaleY="1"/>
+			<e:Label text="023456" size="24" fontFamily="Microsoft YaHei" y="35.74000000000001" x="494.07" textColor="0x3A2213" id="label_id" scaleX="1" scaleY="1"/>
+			<e:Label text="官职：" size="24" fontFamily="Microsoft YaHei" y="74.43" x="182.34" textColor="0x785D46" scaleX="1" scaleY="1"/>
+			<e:Label text="邀请码：" size="24" fontFamily="Microsoft YaHei" y="77.69999999999999" x="450.54" textColor="0x785D46" scaleX="1" scaleY="1"/>
+			<e:Label id="label_office" text="官职的名字" size="24" fontFamily="Microsoft YaHei" y="76.74000000000001" x="256.57" textColor="0x3A2213" scaleX="1" scaleY="1"/>
+			<e:Label id="label_invate" text="02488" size="24" fontFamily="Microsoft YaHei" y="78.54000000000002" x="543.27" textColor="0x3A2213" scaleX="1" scaleY="1"/>
+			<e:Label text="绑晶：" size="24" fontFamily="Microsoft YaHei" y="116.78000000000003" x="182.34" textColor="0x785D46" scaleX="1" scaleY="1"/>
+			<e:Label id="label_bangjing" text="5000" size="24" fontFamily="Microsoft YaHei" y="118.74000000000007" x="256.57" textColor="0x3A2213" scaleX="1" scaleY="1"/>
+			<e:Label text="魔晶：" size="24" fontFamily="Microsoft YaHei" y="118.69999999999999" x="450.04" textColor="0x785D46" scaleX="1" scaleY="1"/>
+			<e:Label id="label_mojing" text="12345678" size="24" fontFamily="Microsoft YaHei" y="120.94" x="522.47" textColor="0x3A2213" scaleX="1" scaleY="1"/>
+			<e:Label text="等级：" size="24" fontFamily="Microsoft YaHei" y="164.07" x="182.33" textColor="0x785D46" scaleX="1" scaleY="1"/>
+			<e:Label id="label_grade" text="Lv99" size="24" fontFamily="Microsoft YaHei" y="165.07" x="260.07" textColor="0xc86207" borderColor="0x000000" border="false" backgroundColor="0x000000" stroke="2" strokeColor="0xfffae6" scaleX="1" scaleY="1"/>
+			<ns1:GreenProgressBar width="273" height="28" x="316.09" y="164.07" skinName="mojingskins.GreenProgressBarSkin" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<e:Image source="Common_json.Temp_TouXiangZheZhao" x="26.85" y="43.04"/>
+			<e:Image source="Common_json.Temp_TouXiangKuang" x="12.33" y="23" scaleX="1" scaleY="1"/>
+			<e:Image source="Common_json.cm_FenGeXian1" x="181.33" y="62" width="476"/>
+			<e:Image source="Common_json.cm_FenGeXian1" x="181.33" y="107" width="476"/>
+			<e:Image source="Common_json.cm_FenGeXian1" x="181.33" y="151" width="476"/>
+		</e:Panel>
+		<e:Image source="grxx_Title_RMSY_png" x="76.09" y="377.66"/>
+		<e:Panel id="panel_second" width="674" height="220" y="402.34" horizontalCenter="0">
+			<e:Panel width="300" height="45" x="33" y="43">
+				<e:Label text="拥有武将：" x="13.340000000000003" y="9.340000000000032" size="24" fontFamily="Microsoft YaHei" textColor="0x572f17" scaleX="1" scaleY="1"/>
+				<e:Label text="50" x="137.67" y="6.990000000000009" textColor="0x8a3601" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			</e:Panel>
+			<e:Panel width="300" height="45" x="344" y="41.34">
+				<e:Label text="龙虎斗最高收益" x="10" y="11.66" size="24" fontFamily="Microsoft YaHei" textColor="0x572F17" scaleX="1" scaleY="1"/>
+				<e:Label text="5056" x="206.5" y="9" textColor="0x8A3601" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			</e:Panel>
+			<e:Panel width="300" height="45" x="33" y="97">
+				<e:Label text="拥有军师：" x="12.66" y="10" size="24" fontFamily="Microsoft YaHei" textColor="0x572F17" scaleX="1" scaleY="1"/>
+				<e:Label text="80" x="137.33" textColor="0x8A3601" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" y="7.33"/>
+			</e:Panel>
+			<e:Panel width="300" height="45" x="344" y="97">
+				<e:Label text="65488" x="188.67" textColor="0x8A3601" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" y="8.66"/>
+				<e:Label text="竞赛最高收益：" x="10.03" y="10.66" size="24" fontFamily="Microsoft YaHei" textColor="0x572F17" scaleX="1" scaleY="1"/>
+			</e:Panel>
+			<e:Panel width="300" height="45" x="33" y="151.5">
+				<e:Label text="龙虎斗次数：" x="13.34" y="9.340000000000032" size="24" fontFamily="Microsoft YaHei" textColor="0x572F17" scaleX="1" scaleY="1"/>
+				<e:Label text="160" x="164.33" y="6.99" textColor="0x8A3601" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			</e:Panel>
+			</e:Panel>
+		<e:Image source="grxx_Title_GRQM_png" x="81" y="643"/>
+		<e:Image source="Common_json.cm_FenGeXian2" y="816.5" width="721" scale9Grid="56,1,119,6" fillMode="scale" horizontalCenter="0"/>
+		<e:Button label="修改资料" x="46.12" y="830.13" skinName="mojingskins.GreenButton2Skin"/>
+		<e:Button label="绑定手机" x="272" y="830.13" skinName="mojingskins.GreenButton2Skin"/>
+		<e:Button label="切换账号" x="498.67" y="830.13" skinName="mojingskins.RedButton2Skin"/>
+		<e:Label id="label_sign" text="这个人很懒，什么都没有留下。" x="169" y="730" fontFamily="Microsoft YaHei" textColor="0xa69379"/>
+		<e:Label text="个性签名文字效果" x="169" y="772" fontFamily="Microsoft YaHei" size="26" textColor="0x572f17"/>
+			
+		
+
+
+	</e:Panel>
+
+</e:Skin>

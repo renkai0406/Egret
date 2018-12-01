@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="achievementwindow" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel width="750" height="973" x="0" y="124" skinName="mojingskins.Panel3Skin" alpha="1">
+		<e:Image x="326" y="39" source="chengjiu_png"/>
+		<e:ToggleButton id="battleToggle" label="征战" x="36" y="932" scaleX="1" scaleY="1" skinName="mojingskins.ToggleButtonSkin" selected="true"/>
+		<e:ToggleButton id="socialToggle" label="社交" x="209" y="932" scaleX="1" scaleY="1" skinName="mojingskins.ToggleButtonSkin" selected="false"/>
+		<e:ToggleButton id="developToggle" label="发展" x="381" y="932" scaleX="1" scaleY="1" skinName="mojingskins.ToggleButtonSkin" selected="false"/>
+		<e:ToggleButton id="otherToggle" label="其他" x="551.5" y="932" scaleX="1" scaleY="1" skinName="mojingskins.ToggleButtonSkin" selected="false"/>
+		<e:Button id="getAllButton" label="一键领取" x="505" y="841" skinName="mojingskins.GreenButton2Skin" scaleX="0.9" scaleY="0.9"/>
+		<e:CheckBox id="hideGottenCheck" label="隐藏已领取的成就" x="56" y="862" skinName="mojingskins.CheckBoxSkin"/>
+		<ns1:ListViewBase id="itemListView" width="688" height="696" x="32" y="133" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image x="26" y="823" source="Common_json.cm_FenGeXian2" scale9Grid="77,1,70,6" width="700"/>
+	</e:Panel>
+</e:Skin>

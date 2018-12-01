@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="taskpage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel id="mainPanel" width="750" height="973" skinName="mojingskins.Panel3Skin" x="0" y="127">
+
+		<e:Image x="324.5" y="35" source="rw_text_RenWu_png"/>
+		<e:Scroller width="704" height="787" y="130" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" scrollPolicyH="off" scrollPolicyV="on">
+			<e:List id="list_data" itemRendererSkinName="mojingskins.TaskItemUI" bottom="0"/>
+		</e:Scroller>
+	</e:Panel>
+</e:Skin>

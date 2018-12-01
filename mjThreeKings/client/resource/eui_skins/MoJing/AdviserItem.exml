@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+		
+<e:Skin class="mojingskins.AdviserItem" width="226" height="303" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel height="311" width="226" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="img_frame" source="jslb_XuanZhongKuang_png" anchorOffsetY="0" left="0" right="0" top="2" bottom="-1" scale9Grid="28,11,171,2"/>
+		<e:Image source="Common_json.cm_Frame_WuJiang" x="0" y="9.38" scaleX="1" scaleY="1"/>
+		<e:Image id="img_adviser" scaleX="1" scaleY="1" verticalCenter="-26.5" horizontalCenter="0" width="218" height="243" source="{data.img}"/>
+		<e:Image id="img_used" source="jslb_YiShiYong_png" y="9.03" scaleX="1" scaleY="1" left="0"/>
+		<e:Group id="group_locked" height="243" y="9.87" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="218" horizontalCenter="0">
+			<e:Image source="jslb_RenWuZheZhao_png" top="0" bottom="0" width="218" horizontalCenter="0"/>
+			<e:Image source="jslb_Suo_png" x="54.5" y="53.63" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Image source="Common_json.cm_WuJiang_MingZiDi" x="4" y="247.93" scaleX="1" scaleY="1"/>
+		<e:Image source="Common_json.cm_FenGeXian2"  y="248.33" left="0" right="0"/>
+		<e:Label text="{data.name}" y="262.13" fontFamily="Microsoft YaHei" size="26" textColor="0x5d2610" scaleX="1" scaleY="1" horizontalCenter="-1"/> 
+</e:Panel>
+</e:Skin>
+
+		
+		

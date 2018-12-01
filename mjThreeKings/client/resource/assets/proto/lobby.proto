@@ -1,0 +1,542 @@
+syntax = "proto3";
+package lobby;
+
+message ShopItem {
+    uint32 id = 1; // 商品ID
+    uint32 type = 2; // 商品类型（1：金币，2：钻石）
+    string name = 3; // 商品名称
+    uint32 value = 4; // 商品数值
+    uint32 count = 5; // 商品数量
+    uint32 price = 6; // 商品价格
+    uint32 bonus = 7; // 奖励赠送
+    uint32 flags = 8; // 商品标签（1：热门）
+}
+
+// 亲友圈消息
+message ClubMessage {
+    uint32 club_id = 1;
+    string club_name = 2;
+    uint32 role = 3; // 权限
+    uint32 members = 4; // 成员总数
+    uint32 onlines = 5; // 在线玩家数
+    uint32 status = 6; // 亲友圈状态
+    string notice = 7;
+    uint32 tables = 8; // 进行中牌桌数
+    repeated string icons = 9; // 最多9个最先加入玩家的图像列表
+    string config = 10; // 亲友圈玩法配置
+    uint32 today = 11; // 今日开局
+    uint32 yesterday = 12; // 昨日开局
+}
+
+// 亲友圈牌桌消息
+message ClubTableMessage {
+    uint32 table_id = 1;
+    uint32 game_id = 2;
+    uint32 rounds = 3;
+    uint32 cur_round = 4;
+    string end_time = 5;
+    repeated PlayerMessage players = 6;
+}
+
+// 亲友圈消息
+message ClubLogMessage {
+    string src_nick = 1;
+    string src_role = 2;
+    string dest_nick = 3;
+    string dest_icon = 4;
+    uint32 action = 5;
+    string ctime = 6;
+}
+
+// 亲友圈成员消息
+message ClubMemberMessage {
+    string user_id = 1;
+    uint32 user_sid = 2;
+    string nick = 3;
+    string icon = 4;
+    uint32 role = 5;
+    uint32 status = 6;
+}
+
+// 游戏配置
+message GameConfig {
+    uint32 gameid = 1;
+    string config = 2;
+}
+
+// 游戏规则
+message GameRule {
+    uint32 gameid = 1;
+    string rule = 2;
+}
+
+// 桌子信息
+message TableItem {
+    string table_uuid = 1;
+    uint32 table_id = 2;
+    string type = 3;
+    uint32 parent_id = 4;
+    uint32 gameid = 5;
+    string table_cfg = 6;
+    string owner_uuid = 7;
+    string dismiss_uuid = 8;
+    uint32 status = 9;
+    string settle_info = 10;
+    string create_time = 11;
+}
+
+// 排行榜玩家信息
+message PlayerMessage {
+    uint32 sid = 1;
+    string nick = 2;
+    string icon = 3;
+    uint32 score = 4;
+}
+message AuditsRequest
+{
+	uint32 club_id = 1;
+	uint32 page = 2;
+	uint32 size = 3;
+}
+
+message AuditsResponse
+{
+	uint32 pages = 1;  // 总页数
+	repeated ClubMemberMessage audits = 2;
+}
+
+message AuditUserRequest
+{
+	uint32 club_id = 1;
+	repeated string user_ids = 2;
+	bool is_audit = 3;  // 同意或取消
+}
+
+message AuditUserResponse
+{
+	uint32 code = 1;  // 响应状态码 0:成功
+}
+
+message BattleReplayRequest
+{
+}
+
+message BattleReplayResponse
+{
+}
+
+message CheckVerificationCodeRequest
+{
+	string mobile = 1; // 手机号码
+	string ver_code = 2; // 验证码
+}
+
+message CheckVerificationCodeResponse
+{
+	int32 check_status = 1; // 0=成功，1=过期，2=失败
+}
+
+message CheckVersionRequest
+{
+	string version = 1; // 当前版本
+	uint32 platform = 2; // 登录平台
+}
+
+message CheckVersionResponse
+{
+	bool update = 1; // 是否需要强更
+	string update_ver = 2; // 强更版本
+	string update_url = 3; // 强更下载地址
+	
+}
+
+message ClubLogRequest
+{
+	uint32 club_id = 1;
+	uint32 page = 2;
+	uint32 size = 3;
+}
+
+message ClubLogResponse
+{
+	uint32 pages = 1;  // 总页数
+	repeated ClubLogMessage logs = 2;
+}
+
+message ClubMemberRequest
+{
+	uint32 club_id = 1;
+	uint32 page = 2;
+	uint32 size = 3;
+}
+
+message ClubMemberResponse
+{
+	uint32 pages = 1;  // 总页数
+	repeated ClubMemberMessage audits = 2;
+}
+
+message ClubPlaingTablesRequest
+{
+	uint32 club_id = 1;
+	uint32 type = 2; // 0:进行中 1:已结束
+	uint32 page = 3; // 页码
+	uint32 size = 4; // 页大小
+}
+
+message ClubPlaingTablesResponse
+{
+	repeated ClubTableMessage tables = 1;
+}
+
+message ClubRankRequest
+{
+	uint32 club_id = 1;
+	uint32 page = 2;
+	uint32 size = 3;
+	uint32 rank_type = 4;  // 昨日排行、七日排行
+	uint32 rank_sub_type = 5;  // 大赢家、局数、总积分
+}
+
+message ClubRankResponse
+{
+	PlayerMessage player = 1;
+	uint32 gainers = 2;  // 大赢家次数
+	uint32 rounds = 3;  // 总局数
+	uint32 scores = 4;  // 总积分
+}
+
+message ClubsRequest
+{
+	uint32 page = 1; // 页码
+	uint32 size = 2; // 页大小
+}
+
+message ClubsResponse
+{
+	repeated ClubMessage clubs = 1;
+}
+
+message ClubTablesRequest
+{
+	uint32 club_id = 1;
+	uint32 type = 2; // 0:进行中 1:已结束
+	uint32 page = 3; // 页码
+	uint32 size = 4; // 页大小
+}
+
+message ClubTablesResponse
+{
+	repeated ClubTableMessage tables = 1;
+}
+
+message CreateClubRequest
+{
+	string name = 1; // 亲友圈名字
+	uint32 game_id = 2; // 游戏ID
+	string table_cfg = 3; // json创建牌桌参数
+}
+
+message CreateClubResponse
+{
+	uint32 club_id = 1; // 亲友圈ID
+}
+
+message CreateTableRequest
+{
+	uint32 game_id = 1; // 游戏ID
+	string table_cfg = 2; // json创建牌桌参数
+	string owner_info = 3; // 创建者信息
+}
+
+message CreateTableResponse
+{
+	uint32 game_id = 1; // 游戏ID
+	uint32 table_id = 2; // 6位牌桌号
+}
+
+message DismissClubTableRequest
+{
+	repeated uint32 table_ids = 1; // 牌桌号列表
+}
+
+message DismissClubTableResponse
+{
+	uint32 code = 1; // 响应状态码 0:成功
+}
+
+message DismissClubRequest
+{
+	uint32 club_id = 1; // 亲友圈ID
+}
+
+message DismissClubResponse
+{
+	uint32 code = 1; // 响应状态码 0:成功
+}
+
+message EnterTableRequest
+{
+	uint32 table_id = 1; // 6位牌桌号
+}
+
+message EnterTableResponse
+{
+	uint32 game_id = 1;
+	uint32 table_id = 2; // 6位牌桌号
+}
+
+message ErrorCodeResponse
+{
+	int32 code = 1; // 错误编码
+	string msg = 2; // 错误消息
+}
+
+message ExitClubRequest
+{
+	uint32 club_id = 1; // 亲友圈ID
+}
+
+message ExitClubResponse
+{
+	uint32 code = 1; // 响应状态码 0:成功
+}
+
+message GetGameConfigRequest
+{
+	uint32 city = 1;
+}
+
+message GetGameConfigResponse
+{
+	repeated GameConfig configs = 1;
+}
+
+message GetGameRuleRequest
+{
+	uint32 city = 1;
+}
+
+message GetGameRuleResponse
+{
+	repeated GameRule rules = 1;
+}
+
+message GetStoreRequest
+{
+}
+
+message GetStoreResponse
+{
+	repeated ShopItem items = 1;
+}
+
+message JoinClubRequest
+{
+	string user_id = 1; // uuid
+	uint32 club_id = 2; // 亲友圈ID
+}
+
+message JoinClubResponse
+{
+	uint32 code = 1; // 响应状态码 0:加入成功等待审核
+}
+
+message LoginRequest
+{
+	uint32 appid = 1; // 应用ID
+	uint32 channel = 2; // 登录方式
+	uint32 platform = 3; // 登录平台
+	uint32 timestamp = 4; // 请求时间戳
+	string token = 5; // 签名
+	string openid = 6; // 登录帐号
+	string version = 7; // 客户端版本
+	string deviceid = 8; // 设备号
+	string location = 9; // 所在位置
+	uint32 reconnect = 10; // 是否重连(0 or 1)
+}
+
+message LoginResponse
+{
+	string uuid = 1; // uuid
+	string pid = 2; // openid
+	uint32 sid = 3; // 6位ID
+	uint32 sex = 4; // 性别
+	uint32 gold = 5; // 金币数量
+	uint32 diamond = 6; // 钻石数量
+	uint32 parent_id = 7; // 代理ID
+	string ip = 8; // ip地址
+	string nick = 9; // 昵称
+	string mobile = 10; // 手机号
+	string headimgurl = 11; // 头像
+	uint32 cur_city = 12; // 当前选择的城市
+	uint32 game_id = 13; // 进行中的游戏ID
+	uint32 table_id = 14; // 进行中的牌桌ID
+	string notice = 15; // 跑马灯公告
+	string share_ico = 16; // 分享图标
+	string share_url = 17; // 分享链接
+	string iap_verify_url = 18; // 苹果支付验证地址
+}
+
+message OpenedCityRequest
+{
+}
+
+message OpenedCityResponse
+{
+	repeated uint32 citys = 1;
+}
+
+message QuickJoinRequest
+{
+	uint32 club_id = 1;
+}
+
+message QuickJoinResponse
+{
+	uint32 table_sid = 1;
+	uint32 game_id = 2;
+}
+
+message RegisterRequest
+{
+	string mobile = 1; // 手机号码
+	string nickname = 2; // 昵称
+	string password = 3; // 密码
+}
+
+message RegisterResponse
+{
+	int32 register_status = 1; // 注册结果：0=成功，1=失败
+}
+
+message SearchUserRequest
+{
+	uint32 club_id = 1;
+	uint32 user_sid = 2;
+}
+
+message SearchUserResponse
+{
+	string user_id = 1;
+	uint32 user_sid = 2;
+	string nick = 3;
+	string icon = 4;
+	bool is_member = 5; // 是否为该亲友圈成员
+	repeated ClubLogMessage logs = 6;
+}
+
+message SetClubMemberStatusRequest
+{
+	uint32 club_id = 1;
+	string user_id = 2;
+	uint32 value = 3; // 成员权限（0：成员：9：会长，8：管理员） 成员状态（0：正常，1：冻结）
+}
+
+message SetClubMemberStatusResponse
+{
+	uint32 code = 1; // 响应状态码 0:成功
+}
+
+message SetClubMemberRequest
+{
+	uint32 club_id = 1;
+	string user_id = 2;
+	uint32 value = 3; // 成员权限（0：成员：9：会长，8：管理员） 成员状态（0：正常，1：冻结）
+}
+
+message SetClubMemberResponse
+{
+	uint32 code = 1; // 响应状态码 0:成功
+}
+
+message SetClubStatusRequest
+{
+	uint32 club_id = 1;
+	uint32 status = 2; // 亲友圈状态 0：正常，1：打烊
+}
+
+message SetClubStatusResponse
+{
+	uint32 code = 1; // 响应状态码 0:成功
+}
+
+message SetCurrentCityRequest
+{
+	uint32 city = 1;
+}
+
+message TableRecordRequest
+{
+	string status = 1; // table type e.g.: open or end
+	uint32 size = 2; // record count per request
+	uint32 page = 3; // request page
+}
+
+message TableRecordResponse
+{
+	repeated TableItem items = 1;
+}
+
+message TablesRequest
+{
+	string status = 1; // table type e.g.: open or end
+	uint32 size = 2; // record count per request
+	uint32 page = 3; // request page
+}
+
+message TablesResponse
+{
+	repeated TableItem items = 1;
+}
+
+message TableRequest
+{
+	uint32 table_id = 1;
+}
+
+message UpdateClubConfigRequest
+{
+	uint32 club_id = 1; // 亲友圈ID
+	string content = 2; // 名字，公告，牌桌配置
+}
+
+message UpdateClubConfigResponse
+{
+	uint32 code = 1; // 响应状态码 0:成功
+}
+
+message UpdateClubInfoRequest
+{
+	uint32 club_id = 1; // 亲友圈ID
+	string content = 2; // 名字，公告，牌桌配置
+}
+
+message UpdateClubInfoResponse
+{
+	uint32 code = 1; // 响应状态码 0:成功
+}
+
+message UpdateClubNoticeRequest
+{
+	uint32 club_id = 1; // 亲友圈ID
+	string content = 2; // 名字，公告，牌桌配置
+}
+
+message UpdateClubNoticeResponse
+{
+	uint32 code = 1; // 响应状态码 0:成功
+}
+
+message VerificationCodeRequest
+{
+	string mobile = 1; // 手机号码
+	int32 request_type = 2; //请求类型，0=注册，1=修改密码，2=登录，3=其它
+}
+
+message VerificationCodeResponse
+{
+	int32 request_status = 1; // 请求结果，0=成功，其它=失败
+	uint32 expire_time = 2; // 验证码过期时间
+}
+

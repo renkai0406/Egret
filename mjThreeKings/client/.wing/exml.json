@@ -1,0 +1,103 @@
+{
+  "global": {
+    "gridColor": 8421504,
+    "gridEnabled": false,
+    "gridSize": "100",
+    "globalAutoLayerMarkEnable": false,
+    "globalAdsorbEnable": false,
+    "globalRulerEnable": true,
+    "globalBindingDataTestObj": []
+  },
+  "163c9eb9d60": {
+    "guideLinesEnabled": false
+  },
+  "163ca123359": {
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100,
+    "guideLines": [
+      {
+        "type": "v",
+        "pos": -182
+      }
+    ]
+  },
+  "16440610a43": {
+    "guideLinesEnabled": false,
+    "bindingDataTestObj": []
+  },
+  "164442410bc": {
+    "guideLinesEnabled": false,
+    "guideLines": [
+      {
+        "type": "v",
+        "pos": 630
+      },
+      {
+        "type": "h",
+        "pos": -14
+      },
+      {
+        "type": "h",
+        "pos": 39
+      }
+    ]
+  },
+  "1651370b54a": {
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  },
+  "165194c1c9c": {
+    "guideLines": [
+      {
+        "type": "v",
+        "pos": 366
+      }
+    ]
+  },
+  "1651cbe6516": {
+    "guideLinesEnabled": true,
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  },
+  "165232dcb04": {
+    "guideLinesEnabled": true
+  },
+  "1653650558d": {
+    "guideLinesEnabled": false
+  },
+  "1656b5ef5b5": {
+    "path": "game\\ui\\skins\\LoadingBar1.ts",
+    "class": "LoadingBar1",
+    "parentPath": ""
+  },
+  "165849a0ef2": {
+    "path": "game\\ui\\skins\\Regulator.ts",
+    "class": "Regulator",
+    "parentPath": ""
+  },
+  "1658976ec3e": {
+    "path": "game\\ui\\skins\\YellowProgressBarSkin.ts",
+    "class": "YellowProgressBarSkin",
+    "parentPath": ""
+  },
+  "16589937999": {
+    "path": "game\\ui\\skins\\Timer1.ts",
+    "class": "Timer1",
+    "parentPath": ""
+  }
+}

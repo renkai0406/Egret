@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LongHuDouItem" width="720" height="350" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel width="720" height="350">
+		<e:Image width="720" height="340" source="dadi_png" scale9Grid="10,13,155,49" y="5" locked="true"/>
+		<e:Image height="338" y="5.68" source="zuo_di_png" width="420" x="4" scale9Grid="10,13,89,49"/>
+		<e:Image id="ad" scale9Grid="10,13,89,49" y="15.01" x="15.86" source="longhubg_png"/>
+		<e:Image source="Common_json.icon_MoJing" x="135" y="240" width="100" scaleX="0.4" scaleY="0.4"/>
+		<e:Image source="Common_json.icon_MoJing" x="135" y="282" width="100" scaleX="0.4" scaleY="0.4"/>
+		<e:Image x="172.63" y="244.68" width="228" scaleX="1" scaleY="1" source="shurukuang_png" height="36" scale9Grid="8,7,29,23"/>
+		<e:Image source="shurukuang_png" x="172.63" y="285.68" width="228" scaleX="1" scaleY="1" height="36" scale9Grid="8,7,29,23"/>
+		<e:Label text="点击匹配对手" x="30.66" y="185.99" size="26" fontFamily="Microsoft YaHei" bold="true" textColor="0xffde95" stroke="2" strokeColor="0x2b1d1b"/>
+		<e:Label text="出征费用:" x="29.67" y="249.34" size="24" textColor="0xba3601" fontFamily="Microsoft YaHei" bold="true"/>
+		<e:Label text="准入条件:" x="31.67" y="290.66" size="24" textColor="0xBA3601" fontFamily="Microsoft YaHei" bold="true"/>
+		<e:Label id="warcost" text="1000" x="186" y="250" size="26" fontFamily="Microsoft YaHei" bold="true" width="200" height="36" textAlign="center" textColor="0xffffff" stroke="2" strokeColor="0x81511c"/>
+		<e:Label id="warlimit" text="10万" x="186" y="290" size="26" fontFamily="Microsoft YaHei" bold="true" width="200" height="36" textAlign="center" textColor="0xFFFFFF" stroke="2" strokeColor="0x81511C"/>
+	</e:Panel>
+	<e:Panel y="0" width="720" height="350" locked="true">
+		<e:Image x="492" y="21" source="biaotidi_png"/>
+		<e:Label text="征战收益" x="530" y="25" size="20" fontFamily="Microsoft YaHei" bold="true"/>
+		<e:Image x="492" y="130" source="biaotidi_png"/>
+		<e:Label text="征战回顾" x="530" y="134" size="20" fontFamily="Microsoft YaHei" bold="true"/>
+		<e:Label id="exp" text="官场经验" x="448" y="67" size="20" textColor="0x6a3906" fontFamily="Microsoft YaHei"/>
+		<e:Label id="merit" text="功勋值+500" x="448" y="91" size="20" textColor="0x6A3906" fontFamily="Microsoft YaHei"/>
+		<e:Label text="历史最强阵容:" x="448" y="175" size="20" textColor="0x6A3906" fontFamily="Microsoft YaHei"/>
+		<e:Label id="lineup" text="关羽/张飞" x="448" y="199" size="20" textColor="0x6A3906" fontFamily="Microsoft YaHei"/>
+		<e:Label text="历史最强技能:" x="448" y="223" size="20" textColor="0x6A3906" fontFamily="Microsoft YaHei"/>
+		<e:Label id="skill" text="梦龙过江" x="448" y="248" size="20" textColor="0x6A3906" fontFamily="Microsoft YaHei"/>
+		<e:Label text="历史最高收益:" x="448" y="271" size="20" textColor="0x6A3906" fontFamily="Microsoft YaHei"/>
+		<e:Label id="income" text="魔晶X5000" x="448" y="295" size="20" textColor="0x6A3906" fontFamily="Microsoft YaHei"/>
+	</e:Panel>
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="historyItem" width="688" height="308" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel width="688" height="308">
+		<e:Image source="zhanji_di1_png" width="688" scale9Grid="10,9,39,39" height="308" x="-1" y="0"/>
+		<e:Image id="redbg" width="684" height="60" source="shanghongdi_png" x="2.5" scale9Grid="7,7,46,46" y="2"/>
+		<e:Image id="bluebg" width="684" height="60" x="2.5" scale9Grid="7,7,46,46" y="2" source="shanglandi_png"/>
+		<e:Rect width="684" height="190" x="2" y="60" fillColor="0x997c5f" fillAlpha="0.2"/>
+		<e:Image id="win" x="-1" y="-2" source="ICON_Sheng_png"/>
+		<e:Image id="loser" source="ICON_Bai_png" fillMode="scale" y="-2" x="-1"/>
+		<e:Label id="name" text="只能吃虾米" size="26" textColor="0xfffad5" textAlign="center" width="170" height="26" x="66" y="20"/>
+		<e:Label id="grade" text="参赛次数:" size="26" textColor="0xFFFAD5" textAlign="center" width="120" height="26" x="479" y="20"/>
+		<e:Label id="incomemojing" text="收益:" size="24" textAlign="left" width="60" height="40" x="251" y="264" fontFamily="Microsoft YaHei" textColor="0x8a3601"/>
+		<e:Label id="textMojing" text="+5000" size="24" textAlign="left" width="100" height="25" x="338" y="264" fontFamily="Microsoft YaHei" textColor="0x8A3601"/>
+		<e:Label id="textMojing0" text="10次" size="24" textAlign="left" width="70" height="25" x="596" y="21" fontFamily="Microsoft YaHei" textColor="0xfffad5"/>
+		<e:Image source="Common_json.icon_MoJing" x="311" y="260" scaleY="0.3" scaleX="0.3"/>
+	</e:Panel>
+</e:Skin>

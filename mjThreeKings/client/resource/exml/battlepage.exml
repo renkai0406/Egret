@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Battle" height="1334" xmlns:e="http://ns.egret.com/eui" width="750" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1651370b54a"/>
+	<e:Image id="hero01" width="250" height="300" source="10001_png" anchorOffsetX="0" anchorOffsetY="0" bottom="248" horizontalCenter="-30.5" scaleX="0.5" scaleY="0.5" fillMode="scale"/>
+	<e:Image id="hero02" width="250" height="300" source="10002_png" horizontalCenter="116.5" bottom="246" scaleX="0.5" scaleY="0.5"/>
+	<e:Image id="hero03" width="250" height="300" source="10001_png" anchorOffsetX="0" anchorOffsetY="0" bottom="98" horizontalCenter="-98.5" scaleX="0.5" scaleY="0.5" fillMode="scale"/>
+	<e:Image id="hero04" width="250" height="300" bottom="93" horizontalCenter="28.5" source="10002_png" scaleX="0.5" scaleY="0.5" x="10" y="10"/>
+	<e:Image id="hero05" width="250" height="300" x="471" y="1096" source="10003_png" scaleX="0.5" scaleY="0.5"/>
+	<e:Image id="hero11" width="250" height="300" source="10001_png" anchorOffsetX="0" anchorOffsetY="0" bottom="826" horizontalCenter="-47.5" scaleX="0.5" scaleY="0.5" fillMode="scale"/>
+	<e:Image id="hero12" width="250" height="300" bottom="824" horizontalCenter="99.5" source="10002_png" scaleX="0.5" scaleY="0.5" x="10" y="10"/>
+	<e:Image id="hero13" width="250" height="300" source="10001_png" anchorOffsetX="0" anchorOffsetY="0" bottom="1000" horizontalCenter="-148.5" scaleX="0.5" scaleY="0.5" fillMode="scale" x="10" y="10"/>
+	<e:Image id="hero14" width="250" height="300" bottom="993" horizontalCenter="23.5" source="10002_png" scaleX="0.5" scaleY="0.5" x="20" y="20"/>
+	<e:Image id="hero15" width="250" height="300" x="473" y="193" source="10003_png" scaleX="0.5" scaleY="0.5"/>
+</e:Skin>

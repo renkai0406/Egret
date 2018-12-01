@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="messagewindow" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="728" height="460" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="diban01_png" horizontalCenter="0" verticalCenter="0" x="-264" y="-130" scaleX="1" scaleY="1"/>
+		<e:Image source="biaotou2_png" y="-39.07" horizontalCenter="0"/>
+		<e:Image source="di2_png" anchorOffsetX="0" width="691.91" anchorOffsetY="0" height="295.9" horizontalCenter="0" verticalCenter="-34"/>
+		<e:Button id="okBtn" label="" x="69.97" y="361.06">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_huang02_png" source.down="btn_huang02_png" source.disabled="btn_huang02_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="closeBtn" label="" x="679.96" y="-24.41" width="73" height="72">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="cm_close_btn_png" source.down="cm_close_btn_png" source.disabled="cm_close_btn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="cancelBtn" label="" x="443.62" y="361.06">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_hong02_png" source.down="btn_hong02_png" source.disabled="btn_hong02_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

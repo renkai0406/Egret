@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="homepage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16440610a43"/>
+	<e:Image source="home_bg01_jpg" left="0" top="0"/>
+	<e:Image source="juesexinxi_shuimodikuang_png" x="3" y="10"/>
+	<e:Group width="601.67" height="123" x="149" y="18" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="zy_juesemingcheng_dikuang_png" x="-21.67" y="3.67"/>
+		<e:Label id="label_name" text="玩家玩家玩家" x="44" y="18" fontFamily="SimHei" size="36" textColor="0x71321c"/>
+		<e:Image source="zy_ID_dikuang_png" x="297.4" y="8.6"/>
+		<e:Label text="ID" x="299" y="21.5" fontFamily="SimHei" size="30" textColor="0x71321c"/>
+		<e:Label id="label_id" text="45645" x="340" y="21.5" fontFamily="SimHei" size="30" textColor="0x71321c"/>
+		<e:Image source="zy_guanzhi_dikuang_png" x="423" y="6.8"/>
+		<e:Label id="label_office" text="太常寺少卿" x="460.8" y="17.6" size="18" fontFamily="SimHei" anchorOffsetX="0" width="58.8" anchorOffsetY="0" height="41.6" textAlign="center" textColor="0x611503"/>
+		<e:Button id="btn_settings" label="" y="4.4" right="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_shezhi_png" source.down="button_shezhi_png" source.disabled="button_shezhi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group width="204.33" height="54" x="0.67" y="71" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Image source="dengji_dikuang01_png" x="34" y="9" anchorOffsetX="0" width="184" scale9Grid="13,14,6,6"/>
+			<e:Image id="img_grade" source="dengji_dikuang02_png" x="34" y="10" scale9Grid="13,5,4,21" anchorOffsetX="0" width="184"/>
+			<e:Image source="juese_dengji_png" x="-1.66" y="2"/>
+			<e:Label id="label_grade" text="8" x="13.83" y="9.84" size="36" textColor="0xccff66"/>
+		</e:Group>
+		<e:Group width="169.5" height="52.5" x="230" y="70" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Image source="button_add_dikuang_png" y="3.5" left="0"/>
+			<e:Label text="548921" x="48.5" y="11.5" size="24" fontFamily="SimHei" textColor="0xedc388"/>
+			<e:Button label="" x="123.6" y="5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="button_add_png" source.down="button_add_png" source.disabled="button_add_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group width="169.5" height="52.5" x="416" y="70" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Image source="button_add_dikuang_png" y="3.5" left="0"/>
+			<e:Label text="548921" x="48.5" y="11.5" size="24" fontFamily="SimHei" textColor="0xedc388"/>
+			<e:Button label="" x="123.6" y="5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_add_png" source.down="button_add_png" source.disabled="button_add_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+	<e:Group width="149" height="153" x="0" y="0" left="0" top="0">
+		<e:Image id="img_avatar_mask" source="Common_json.Temp_TouXiangZheZhao" x="19.8" y="24.87"/>
+		<e:Image id="img_avatar" top="0" left="0" width="149" height="153" x="0" y="0" scaleX="1" scaleY="1" mask="img_avatar_mask" source="Title_ChaXunZhanJi_png"/>
+		<e:Image id="img_avatar_frame" source="touxiangkuang_J_jinkuang_png" top="0" left="0" width="149" height="153" x="0" y="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group width="591" height="40" x="80" y="145" horizontalCenter="0">
+		<e:Image source="zy_zoumadeng_png" y="0" horizontalCenter="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Label id="label_message" text="走马灯,上课放假啊快到" y="7.5" horizontalCenter="-17.5" size="24" fontFamily="Microsoft YaHei" textColor="0xf4eade"/>
+	</e:Group>
+	<e:Group id="group_controller" width="543.94" height="130.36" y="185" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:RadioButton id="rbtn_controller" label="" x="7" y="-6" value="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zy_icon_paihangbang_png" source.down="zy_icon_paihangbang_png" source.disabled="zy_icon_paihangbang_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton label="" x="148.84" y="5" value="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zy_icon_zhandoujilu_png" source.down="zy_icon_zhandoujilu_png" source.disabled="zy_icon_zhandoujilu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton label="" x="304.5" y="9.18" value="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zy_icon_renwu_png" source.down="zy_icon_renwu_png" source.disabled="zy_icon_renwu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton label="" x="428.67" y="5" anchorOffsetX="0" width="102" value="3">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zy_icon_chengjiu_png" source.down="zy_icon_chengjiu_png" source.disabled="zy_icon_chengjiu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+	</e:Group>
+	<e:Group id="group_game" height="829.08" y="316.16" anchorOffsetY="0" left="0" right="0">
+		<e:RadioButton id="rbtn_game" label="" x="388.14" y="144" value="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_ziyuankuangqu_png" source.down="button_ziyuankuangqu_png" source.disabled="button_ziyuankuangqu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton label="" x="145.48" y="418.93" value="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_longhudou_png" source.down="button_longhudou_png" source.disabled="button_longhudou_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton label="" x="451.48" y="543.33" value="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_qunxiongzhengba_png" source.down="button_qunxiongzhengba_png" source.disabled="button_qunxiongzhengba_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+	</e:Group>
+	<e:Group id="group_main" height="188" anchorOffsetY="0" left="0" right="0" bottom="0">
+		<e:Group width="216.5" height="142" x="13" y="41.59999999999991" left="13" scaleX="1" scaleY="1" anchorOffsetX="0">
+			<e:RadioButton label="" x="0" y="0" groupName="rbtngroup_main1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="button_left_png" source.down="button_left_png" source.disabled="button_left_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="rbtn_main" label="" x="59.33" y="67" groupName="rbtngroup_main2" value="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="button_wenzi_wujiang01_png" source.down="button_wenzi_wujiang02_png" source.disabled="button_wenzi_wujiang01_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+		</e:Group>
+		<e:Group width="288.2" height="155" x="233" y="19.8" anchorOffsetX="0">
+			<e:RadioButton label="" x="0" y="0" groupName="rbtngroup_main1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="button_xuanzhong_png" source.down="button_xuanzhong_png" source.disabled="button_xuanzhong_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton label="" x="99.34" y="75.33" groupName="rbtngroup_main2" value="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="button_wenzi_zhengzhan01_png" source.down="button_wenzi_zhengzhan02_png" source.disabled="button_wenzi_zhengzhan01_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+		</e:Group>
+		<e:Group width="218.6" height="138" x="524.4" y="43" anchorOffsetX="0">
+			<e:RadioButton label="" x="0" y="0" groupName="rbtngroup_main1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="button_right_png" source.down="button_right_png" source.disabled="button_right_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton label="" x="61.67" y="65" groupName="rbtngroup_main2" scaleX="1" value="2">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="button_wenzi_haoyou01_png" source.down="button_wenzi_haoyou02_png" source.disabled="button_wenzi_haoyou01_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+		</e:Group>
+	</e:Group>
+</e:Skin>

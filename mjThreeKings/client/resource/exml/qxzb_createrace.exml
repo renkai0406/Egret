@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="qxzb_createrace" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel id="mainPanel" width="750" height="696" y="288" x="0" skinName="mojingskins.Panel8Skin">
+		<e:Image source="text_chuangjianjingsai_png" y="9.07" horizontalCenter="-3.5"/>
+		<e:Rect width="700" height="440" y="113" horizontalCenter="0" fillColor="0xe1d6c4" strokeColor="0xe1d6c4"/>
+		<e:Rect width="620" height="300" y="141.66" horizontalCenter="0" fillColor="0xd6c7b4" strokeColor="0xd6c7b4"/>
+		<e:Label text="奖金额度：" x="109.12" y="165.6" textColor="0x4d2007" fontFamily="Microsoft YaHei"/>
+		<ns1:Regulator id="reg_award" width="302" height="66" x="316" y="150"/>
+		<e:Image y="217.16" scale9Grid="21,0,2,2" width="560" horizontalCenter="0" source="cm_FenGeXian1_cr_png"/>
+		<e:Label text="单人次参赛费用：" x="108.78" y="240.26" textColor="0x4D2007" fontFamily="Microsoft YaHei"/>
+		<e:Label text="100" x="421.18" y="240.26" fontFamily="Microsoft YaHei" size="36" textColor="0xc94e01"/>
+		<e:Image y="291.16" scale9Grid="21,0,2,2" width="560" horizontalCenter="0" source="cm_FenGeXian1_cr_png"/>
+		<e:Label text="参与人次：" x="109.18" y="314.26" textColor="0x4D2007" fontFamily="Microsoft YaHei"/>
+		<e:Label text="50 次" x="267.98" y="308.26" textColor="0xC94E01" fontFamily="Microsoft YaHei" size="36"/>
+		<e:Image y="365.91" scale9Grid="21,0,2,2" width="560" horizontalCenter="0" source="cm_FenGeXian1_cr_png"/>
+		<e:Label text="举办预计收益：" x="108.78" y="387.46" textColor="0x4D2007" fontFamily="Microsoft YaHei"/>
+		<e:Label text="250" x="365.98" y="389.86" textColor="0xC94E01" fontFamily="Microsoft YaHei" size="36"/>
+		<e:Label text="温馨提示：再成功" x="107.8" y="465.8" fontFamily="Microsoft YaHei" size="26" textColor="0x8a3601"/>
+		<e:Button label="创建" y="570.67" skinName="mojingskins.GreenButton1Skin" horizontalCenter="0"/>
+	</e:Panel>
+</e:Skin>

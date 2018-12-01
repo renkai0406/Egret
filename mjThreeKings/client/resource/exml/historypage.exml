@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="historypage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel id="mainPanel" y="150.45" width="750" x="0" skinName="mojingskins.Panel6Skin">
+		<e:Image x="267" y="-9.29" source="title_ZanJiJiLu_png"/>
+		<e:Image x="105.11" y="100.16" source="cm_line_png"/>
+		<e:Image x="645.52" y="114.32" source="cm_line_png" rotation="180"/>
+		<e:Label text="显示最近1个月开赛记录" x="248.13" y="95" size="24" fontFamily="Microsoft YaHei" textColor="0xb77122"/>
+		<e:Rect width="710" height="730" x="21.31" y="149.46" fillColor="0x997c5f" alpha="0.2"/>
+		<e:Scroller width="710" height="730" x="20.86" y="150.1">
+			<e:List id="list_data"/>
+		</e:Scroller>
+		<e:Button id="check" label="" x="254.67" y="885.34" skinName="mojingskins.RedButton1Skin"/>
+		<e:Label id="textcheck" text="查询战绩" x="306" y="910.48" textColor="0xfff4ea" size="36" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x922a2a"/>
+		<e:ToggleButton id="recordZB" label="争霸记录" x="200" y="975" skinName="mojingskins.ToggleButtonSkin" selected="false"/>
+		<e:ToggleButton id="recordLHD" label="龙虎斗记录" x="32.47" y="975" skinName="mojingskins.ToggleButtonSkin" selected="false"/>
+	</e:Panel>
+</e:Skin>

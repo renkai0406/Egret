@@ -1,0 +1,6 @@
+{"1000001":{"Id":1000001,"Name":"\u9F99\u864E\u4E4B\u4E89","Describe":"\u53C2\u52A0\u4E00\u6B21\u9F99\u864E\u6597","PreTask":0,"Level":1,"Type":1,"Action":14,"Value":1,"AwardType":[1,2,3],"AwardValue":[100,5,5]},
+"1000002":{"Id":1000002,"Name":"\u53D1\u5C55\u77FF\u533A","Describe":"\u5F00\u91C7\u77FF\u533A\uFF0C\u8D5A\u53D6\u6536\u76CA","PreTask":1000001,"Level":2,"Type":1,"Action":13,"Value":0,"AwardType":[1,2,3],"AwardValue":[100,5,5]},
+"1000003":{"Id":1000003,"Name":"\u5F81\u6218\u8FBE\u4EBA","Describe":"\u5728\u201C\u521D\u9732\u950B\u8292\u201D\u6218\u573A\u5F81\u62185\u6B21","PreTask":0,"Level":0,"Type":2,"Action":3,"Value":5,"AwardType":[1,2,3],"AwardValue":[100,5,5]},
+"1000004":{"Id":1000004,"Name":"\u7B2C1\u5929","Describe":"\u5728\u6C49\u4E2D\u77FF\u533A\u9886\u53D6\u4E00\u6B21\u6536\u76CA","PreTask":0,"Level":0,"Type":3,"Action":7,"Value":1,"AwardType":[0],"AwardValue":[0]},
+"1000005":{"Id":1000005,"Name":"\u7B2C2\u5929","Describe":"\u7ED3\u4EA41\u4E2A\u597D\u53CB","PreTask":1000004,"Level":0,"Type":3,"Action":16,"Value":1,"AwardType":[0],"AwardValue":[0]},
+"1000006":{"Id":1000006,"Name":"\u7B2C3\u5929","Describe":"\u5B98\u804C\u8FBE\u5230\u540F\u76EE","PreTask":1000005,"Level":0,"Type":3,"Action":2,"Value":2,"AwardType":[1,2,3],"AwardValue":[100,5,5]}}

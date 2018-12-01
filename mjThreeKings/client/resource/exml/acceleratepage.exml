@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+	
+
+	
+<e:Skin class="acceleratepage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Panel width="713" height="604" anchorOffsetX="0" anchorOffsetY="0"  verticalCenter="24" horizontalCenter="0.5">
+		<e:Image source="rw_text_WaKuang_png" x="287" y="40"/>
+		<e:Label id="label_name" text="汉中矿区" x="109.5" y="209.5" size="36" fontFamily="Microsoft YaHei" textColor="0xcc1a02"/>
+		<e:Label text="挖矿耗时将缩短" x="256.5" y="210.5" size="36" fontFamily="Microsoft YaHei" textColor="0x572f17"/>
+		<e:Label id="label_time" text="1" x="511.92" y="210.41" size="36" fontFamily="Microsoft YaHei" textColor="0xCC1A02"/>
+		<e:Label text="小时" x="534.1" y="211.7" size="36" fontFamily="Microsoft YaHei" textColor="0x572F17"/>
+		<e:Label text="消耗" x="246.9" y="285.9" size="36" fontFamily="Microsoft YaHei" textColor="0x572F17"/>
+		<e:Label id="label_count" text="x1" x="419.3" y="285.9" size="36" fontFamily="Microsoft YaHei" textColor="0x572F17"/>
+		<e:Image source="Common_json.cm_Box_WuPin" x="338.4" y="273" scaleX="0.8" scaleY="0.8"/>
+		<e:Button id="btn_cancel" label="取 消" x="116" y="382" scaleX="1" scaleY="1" skinName="mojingskins.RedButton2Skin"/>
+		<e:Button id="btn_score" label="查看战绩" x="406" y="381" scaleX="1" scaleY="1" skinName="mojingskins.GreenButton2Skin"/>
+	</e:Panel>
+</e:Skin>

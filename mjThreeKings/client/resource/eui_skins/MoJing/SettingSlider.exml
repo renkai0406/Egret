@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+	
+<e:Skin class="SettingSliderSkin" width="357" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16532589013" ></w:Config>
+	<e:Image id="img_back" source="sz_JinDu3_png" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="0" x="0"/>
+	<e:Image id="img_front" source="sz_JinDu2_png" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" x="2"/>
+	<e:Image id="img_button" source="sz_JinDu1_png" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" y="18.5" x="154"/>
+</e:Skin>

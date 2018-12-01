@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="qxzb_main" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="btn0" label="领取收益" x="436.3" y="39.78" skinName="mojingskins.YellowButton1Skin" name="btn0"/>
+	<e:Button id="btn1" label="竞赛1" x="16.42" y="424.02" skinName="mojingskins.YellowButton1Skin" name="btn1"/>
+	<e:Button id="btn2" label="竞赛2" x="251.39" y="561.9" skinName="mojingskins.YellowButton1Skin" name="btn2"/>
+	<e:Button id="btn3" label="创建竞赛" x="248.3" y="1155.78" skinName="mojingskins.YellowButton1Skin" name="btn3"/>
+</e:Skin>

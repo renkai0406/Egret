@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="friendpage_cur_base" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel id="panel_total" width="796" height="1016" name="panel_total" skinName="mojingskins.Panel1Skin" x="-23" y="145">
+		<e:Group width="796" height="80" y="0" horizontalCenter="0">
+			<e:RadioButton id="rbtn_base" label="当前好友" x="23.5" y="8" skinName="mojingskins.TabButton1Skin" scaleX="1" scaleY="1" value="0" selected="true"/>
+			<e:RadioButton label="添加好友" x="272" y="8" skinName="mojingskins.TabButton1Skin" scaleX="1" scaleY="1" value="1"/>
+			<e:RadioButton label="申请列表" x="521" y="8" skinName="mojingskins.TabButton1Skin" scaleX="1" scaleY="1" value="2"/>
+		</e:Group>
+		
+		
+		
+		<e:ViewStack id="vs_view" width="750" height="880" y="103" horizontalCenter="0"  selectedIndex="3">
+			<e:Group id="group_show" width="750" height="880" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" horizontalCenter="0" x="0" visible="false">
+				<ns1:ListViewBase id="list_show" enabled="true" width="726" height="752" y="0"  scaleX="1" scaleY="1" horizontalCenter="0"/>
+				<ns1:PageTurning1 id="pt1_show" width="282" height="72" x="30.67" y="788" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_edit_show" label="编 辑" x="331.67" y="784.6700000000001" skinName="mojingskins.GreenButton2Skin" anchorOffsetX="0" width="188" anchorOffsetY="0" height="79" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_refresh_show" label="刷 新" x="533.67" y="784.6700000000001" skinName="mojingskins.GreenButton2Skin" anchorOffsetX="0" width="188" anchorOffsetY="0" height="79" scaleX="1" scaleY="1"/>
+				<e:Image source="Common_json.cm_FenGeXian2" y="749" horizontalCenter="0" width="750" scale9Grid="76,1,79,6" x="0" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="group_edit" width="750" height="880" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" horizontalCenter="0" visible="false">
+				<ns1:ListViewBase id="list_edit" width="726" height="752" y="0"  scaleX="1" scaleY="1" horizontalCenter="0"/>
+				<e:Image source="Common_json.cm_FenGeXian2" y="749.0000000000001" horizontalCenter="0" width="750" scale9Grid="76,1,79,6" x="0" scaleX="1" scaleY="1"/>
+				<ns1:PageTurning1 width="282" height="72" x="30.670000000000005" y="788.0000000000002" id="pt1_edit" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_cancel_edit" label="取 消" x="331.67" y="784.6700000000001" anchorOffsetX="0" width="188" anchorOffsetY="0" height="79" skinName="mojingskins.RedButton2Skin" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_submit_edit" label="确 定" x="533.67" y="784.6700000000001" skinName="mojingskins.GreenButton2Skin" anchorOffsetX="0" width="188" anchorOffsetY="0" height="79" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="group_add" width="750" height="880" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" horizontalCenter="0" visible="false">
+				<e:TextInput id="tinput_add" width="464" height="75" x="39.61" y="14.670000000000016" anchorOffsetX="0" anchorOffsetY="0" skinName="mojingskins.TextInputSkin" scaleX="1" scaleY="1" prompt="点击输入名称或ID即可搜索"/>
+				<e:Button id="bt_find_add" label="查找" x="528" y="11.5" skinName="mojingskins.GreenButton2Skin" anchorOffsetY="0" height="81" anchorOffsetX="0" width="188" scaleX="1" scaleY="1"/>
+				<e:Panel width="726" height="42" x="11" y="123.99999999999994" scaleX="1" scaleY="1">
+					<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xcdbda4" strokeColor="0xcdbda4"/>
+					<e:Label text="系统推荐" size="24" fontFamily="Microsoft YaHei" textColor="0x572F17" horizontalCenter="-7" verticalCenter="0"/>
+				</e:Panel>
+				<ns1:ListViewBase id="list_add" width="726" height="580.79" y="171.21000000000004" scaleX="1" scaleY="1" horizontalCenter="0"/>
+				<e:Image source="Common_json.cm_FenGeXian2" y="749.0000000000001" horizontalCenter="0" width="750" scale9Grid="76,1,79,6" x="0" scaleX="1" scaleY="1"/>
+				<e:Button label="换一批" x="150" y="781.3300000000002" skinName="mojingskins.GreenButton2Skin" id="btn_change_add" scaleX="1" scaleY="1"/>
+				<e:Button label="全部申请" x="378" y="781.3300000000002" id="btn_applyAll_add" scaleX="1" scaleY="1" skinName="mojingskins.YellowButton2Skin"/>
+			</e:Group>
+			<e:Group id="group_apply" width="750" height="880" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" horizontalCenter="0">
+				<e:Panel width="726" height="42" y="24.599999999999966" scaleX="1" scaleY="1" horizontalCenter="0" x="12">
+					<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xCDBDA4" strokeColor="0xCDBDA4" x="-12" y="-24.599999999999966" scaleX="1" scaleY="1"/>
+					<e:Label text="当前申请人数22人" size="24" fontFamily="Microsoft YaHei" textColor="0x572F17" horizontalCenter="-7" verticalCenter="0"/>
+				</e:Panel>
+				<ns1:ListViewBase id="list_apply" width="726" height="680.79" y="71.21000000000004" scaleX="1" scaleY="1" horizontalCenter="0"/>
+				<ns1:PageTurning1 width="282" height="72" x="30.670000000000005" y="788.0000000000002" id="pt1_apply" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_refuseAll_apply" label="全部拒绝" x="331.67" y="784.6700000000001" anchorOffsetX="0" width="188" anchorOffsetY="0" height="79" skinName="mojingskins.RedButton1Skin" scaleX="1" scaleY="1"/>
+				<e:Button id="btn_agreeAll_apply" label="全部同意" x="533.67" y="784.6700000000001" skinName="mojingskins.GreenButton2Skin" anchorOffsetX="0" width="188" anchorOffsetY="0" height="79" scaleX="1" scaleY="1"/>
+				<e:Image source="Common_json.cm_FenGeXian2" y="749.0000000000001" horizontalCenter="0" width="750" scale9Grid="76,1,79,6" x="0" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:ViewStack>
+	</e:Panel>
+</e:Skin>

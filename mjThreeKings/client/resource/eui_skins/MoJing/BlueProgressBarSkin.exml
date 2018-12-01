@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mojingskins.BlueProgressBarSkin" width="273" height="28" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" minHeight="28" minWidth="273" maxWidth="273" maxHeight="28">
+	<e:Image id="img_back" verticalCenter="0" left="0" source="cm_JingYanDi_png"/>
+	<e:Image id="img_front" verticalCenter="0" left="2" source="cm_GongXunTiao_png"/>
+	<e:Label id="label_progress" text="0234/9999" verticalCenter="0" size="22" textColor="0xffffff" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x356319" left="80" horizontalCenter="0"/>
+</e:Skin>

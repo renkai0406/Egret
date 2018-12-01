@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mojingskins.ToggleButtonSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" >
+	<e:Image source="Common_json.cm_Toggle_XiaOn" source.up="Common_json.cm_Toggle_XiaOff" source.down="Common_json.cm_Toggle_XiaOff" source.disabled="Common_json.cm_Toggle_XiaOff"/>
+	<e:Label id="labelDisplay" text="标签按钮" x="0" y="0" width="100%" height="100%" verticalAlign="middle" textAlign="center" textColor="0xffffff" size="26" fontFamily="SimHei" stroke="2" strokeColor="0x2c6b5e" textColor.up="0x663c23" strokeColor.up="0xe4c08b" textColor.down="0x663c23" strokeColor.down="0xe4c08b" textColor.disabled="0x663c23" strokeColor.disabled="0xe4c08b"/>
+</e:Skin>

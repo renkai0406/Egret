@@ -1,0 +1,8 @@
+{"1000001":{"Id":1000001,"Name":"\u8BF8\u845B\u4EAE","Level":1,"MineTime":600,"UnlockType":[5],"UnlockMoJing":2000,"Res":""},
+"1000002":{"Id":1000002,"Name":"\u53F8\u9A6C\u61FF","Level":1,"MineTime":1200,"UnlockType":[5],"UnlockMoJing":1800,"Res":""},
+"1000003":{"Id":1000003,"Name":"\u90ED\u5609","Level":2,"MineTime":1800,"UnlockType":[6,5],"UnlockMoJing":1600,"Res":""},
+"1000004":{"Id":1000004,"Name":"\u5F90\u5EB6","Level":2,"MineTime":2400,"UnlockType":[4,5],"UnlockMoJing":1400,"Res":""},
+"1000005":{"Id":1000005,"Name":"\u674E\u5112","Level":3,"MineTime":3000,"UnlockType":[2,5],"UnlockMoJing":1200,"Res":""},
+"1000006":{"Id":1000006,"Name":"\u5E9E\u7EDF","Level":3,"MineTime":3600,"UnlockType":[3,5],"UnlockMoJing":1000,"Res":""},
+"1000007":{"Id":1000007,"Name":"\u6CD5\u6B63","Level":4,"MineTime":4200,"UnlockType":[1],"UnlockMoJing":0,"Res":""},
+"1000008":{"Id":1000008,"Name":"\u9C81\u8083","Level":5,"MineTime":4800,"UnlockType":[1],"UnlockMoJing":0,"Res":""}}

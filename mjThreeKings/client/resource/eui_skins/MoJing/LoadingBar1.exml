@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingBar1Skin" width="750" height="142" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1656b5ef5b5" ></w:Config>
+
+	<e:Panel width="750" height="142" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="img_back" source="dl_Loading_Di_png" x="28" verticalCenter="14.790000000000006"/>
+		<e:Image id="img_front" source="dl_Loading_Tiao_png" x="28" verticalCenter="14.790000000000006"/>
+		<e:Label id="label_progress" text="加载中…50%" y="14.67" fontFamily="Microsoft YaHei" size="28" textColor="0x4d1d0c" horizontalCenter="0"/>
+		<e:Rect id="mask_area" width="625.6" height="73.8" x="72.6" y="49.8" fillAlpha="0" strokeAlpha="0" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group width="48" height="200" x="24" y="-30" anchorOffsetX="0"/>
+	</e:Panel>
+</e:Skin>

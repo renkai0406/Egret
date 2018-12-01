@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="adviserpage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Panel height="1028" y="133" left="0" right="0" skinName="mojingskins.Panel5Skin" name="panel_main">
+		<e:Image source="jslb_JunShiLieBiao_png" x="265.5" y="8.5" scaleX="1" scaleY="1"/>
+		<ns1:ListViewBase id="list_adviser" width="716" height="618" x="17" y="86" horizontalCenter="0" name="lvb_adviser"/>
+		<e:ViewStack id="vs_operate" width="200.67" height="72.67" x="279.45" y="904.48" anchorOffsetX="0" anchorOffsetY="0" name="vs_operate">
+			<e:Group id="group_unlock" width="250" height="90" x="0" y="0" scaleX="0.8" scaleY="0.8" visible="false">
+				<e:Button id="btn_unlock" label="2000解锁" x="0" y="0" scaleX="1.0000000000000002" scaleY="1.0000000000000002" width="250" height="90" skinName="mojingskins.RedButton1Skin"/>
+			</e:Group>
+			<e:Group id="group_use" width="250" height="90" x="0" y="0" scaleX="0.8" scaleY="0.8" visible="false">
+				<e:Button id="btn_use" label="使 用" x="0" y="0" scaleX="1" scaleY="1" width="250" height="90" skinName="mojingskins.YellowButton1Skin"/>
+			</e:Group>
+			<e:Button id="btn_recycle" label="收 回" x="0" y="0" skinName="mojingskins.GreenButton1Skin" scaleX="0.8000000000000002" scaleY="0.8000000000000002" width="250" height="90" visible="false"/>
+		</e:ViewStack>
+		<e:Image source="jslb_JianJieDi_png" y="703" anchorOffsetX="0" anchorOffsetY="0" height="181" scale9Grid="17,17,10,3" left="9" right="9" x="9" scaleX="1" scaleY="1" width="733"/>
+		<e:Image source="Common_json.cm_FenGeXian2" y="697" scale9Grid="110,6,30,1" scaleX="1" scaleY="1" width="672" horizontalCenter="0"/>
+		<e:Label text="军师简介：" x="28.52" y="720.99" fontFamily="Microsoft YaHei" size="20" textColor="0x572f17" scaleX="1" scaleY="1"/>
+		<e:Label text="军师属性：" x="28.679999999999996" y="823.66" fontFamily="Microsoft YaHei" size="20" textColor="0x572F17" scaleX="1" scaleY="1"/>
+		<e:Label id="label_info" text="啊沙发沙发沙发" y="720.66" fontFamily="Microsoft YaHei" size="20" textColor="0x745445" anchorOffsetX="0" anchorOffsetY="0" height="95" left="135" right="26" multiline="true" maxHeight="95" maxWidth="589" x="135" scaleX="1" scaleY="1" name="label_info"/>
+		<e:Label id="label_attribute" text="采矿时间为1小时" y="825.33" fontFamily="Microsoft YaHei" size="20" textColor="0x745445" anchorOffsetX="0" anchorOffsetY="0" height="45.66" left="135" right="26" multiline="true" maxHeight="95" maxWidth="589" x="135" scaleX="1" scaleY="1" name="label_attribute"/>
+	</e:Panel>
+</e:Skin>

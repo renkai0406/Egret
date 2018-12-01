@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="registerpage" width="750" height="1334 " xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1651cbe6516"/>
+	<e:Panel id="mainPanel" width="713" height="604" anchorOffsetX="0" anchorOffsetY="0" skinName="mojingskins.Panel2Skin" y="319" x="19">
+		<e:Button id="btn_submit" label="下一步" y="462.16" height="80" width="222" skinName="mojingskins.GreenButton1Skin" scaleX="1" scaleY="1" horizontalCenter="-5.5" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Panel id="panel_second" height="313" y="129" anchorOffsetY="0" width="647" enabled="false" scaleX="1" scaleY="1" horizontalCenter="0" x="33" skinName="panel" visible="false">
+			<e:Label text="昵称" y="14.89" size="28" textColor="0x492D20" fontFamily="Microsoft YaHei" x="87" scaleX="1" scaleY="1" locked="true"/>
+			<e:Label text="登陆密码" y="113.78" size="28" textColor="0x492D20" fontFamily="Microsoft YaHei" x="88.52" scaleX="1" scaleY="1" locked="true"/>
+			<e:Label text="确认密码" y="214.9" size="28" textColor="0x492D20" fontFamily="Microsoft YaHei" x="88.52" scaleX="1" scaleY="1" locked="true"/>
+		<e:TextInput id="tinput_name" width="464" height="52" y="45.46" skinName="mojingskins.TextInputSkin" enabled="true" scaleX="1" scaleY="1" x="88.81" prompt="输入文字颜色"/>
+			<e:TextInput id="tinput_password" width="464" height="52" y="145.59" skinName="mojingskins.TextInputSkin" enabled="true" scaleX="1" scaleY="1" x="88.52" prompt="输入文字颜色"/>
+		<e:TextInput id="tinput_repeat" width="464" height="52" y="247.81" skinName="mojingskins.TextInputSkin" enabled="true" scaleX="1" scaleY="1" x="87" prompt="输入文字颜色"/>
+		</e:Panel>
+		<e:Panel id="panel_first" height="313" anchorOffsetY="0" width="647" enabled="true" y="129" scaleX="1" scaleY="1" x="33" skinName="panel">
+		<e:Label text="手机号码" y="51.2" size="28" textColor="0x492D20" fontFamily="Microsoft YaHei" x="91.66"/>
+		<e:TextInput id="tinput_phone" width="464" height="66" y="82.63" enabled="true" x="95" skinName="mojingskins.TextInputSkin" prompt="请输入您的手机号码"/>
+		<e:Label text="验证码" y="162.2" size="28" textColor="0x492D20" fontFamily="Microsoft YaHei" x="92.34"/>
+		<e:TextInput id="tinput_identify" width="234" height="66" y="193.96" enabled="true" x="94" skinName="mojingskins.TextInputSkin" prompt="请输入验证码"/>
+		<e:Button id="btn_getIdentity" label="验证" x="335.11" y="192.63" height="66" anchorOffsetX="0" width="140.91" skinName="mojingskins.GreenButton1Skin"/>
+		</e:Panel>
+		<e:Image source="zc_text_ZhuCe_png" y="39" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Image source="Common_json.cm_FenGeXian2" width="670" fillMode="scale" horizontalCenter="0.5" verticalCenter="138" scaleX="1.2" scale9Grid="21,1,187,6"/>
+	</e:Panel>
+
+</e:Skin>

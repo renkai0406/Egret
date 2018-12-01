@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mojingskins.TabButton1Skin" width="247" height="72" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="down,up" >
+	<w:Config id="1654ff6fd1e" ></w:Config>
+	<e:Image source="Common_json.cm_Toggle_ShangOff" includeIn="up" scale9Grid="46,9,59,54" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="Common_json.cm_Toggle_ShangOn" includeIn="down" scale9Grid="45,9,62,54" left="0" right="0" top="0" bottom="0"/>
+	<e:Label id="labelDisplay" text="" horizontalCenter="0" verticalCenter="0" size="32" textColor="0x593316" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0xf6d175" textColor.up="0xe4c39d" strokeColor.up="0x463021"/>
+</e:Skin>

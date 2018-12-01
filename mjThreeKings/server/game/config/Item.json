@@ -1,0 +1,6 @@
+{"1":{"Id":1,"Name":"\u5C06\u9B42\u4EE4","Describe":"\u7528\u4E8E\u6B66\u5C06\u5347\u661F","Type":1},
+"2":{"Id":2,"Name":"\u7ED1\u6676","Describe":"\u6D41\u901A\u8D27\u5E01","Type":2},
+"3":{"Id":3,"Name":"\u9B54\u6676","Describe":"\u6D41\u901A\u8D27\u5E01","Type":2},
+"4":{"Id":4,"Name":"\u91D1\u94F2","Describe":"\u51CF\u5C11\u6316\u77FF\u65F6\u95F4","Type":3},
+"5":{"Id":5,"Name":"\u7ECF\u9A8C\u503C","Describe":"\u7528\u4E8E\u63D0\u5347\u4E3B\u516C\u7B49\u7EA7","Type":4},
+"6":{"Id":6,"Name":"\u529F\u52CB\u503C","Describe":"\u7528\u4E8E\u63D0\u5347\u5B98\u804C\u7B49\u7EA7","Type":5}}

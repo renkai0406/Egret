@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="checkRoompage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel id="mainPanel" skinName="mojingskins.Panel3Skin" y="136">
+		<e:Image id="check" x="268" y="35" source="Title_ChaXunZhanJi_png"/>
+		<e:Image id="join" x="262.64" y="35" source="Title_JaRuJinSai_png"/>
+		<e:Image x="100" y="207" source="cm_Input_QianSe_png" width="82" height="82" fillMode="scale" scale9Grid="14,8,87,50"/>
+		<e:Image x="194" y="207" source="cm_Input_QianSe_png" width="82" height="82" fillMode="scale" scale9Grid="14,8,87,50"/>
+		<e:Image x="288" y="207" source="cm_Input_QianSe_png" width="82" height="82" fillMode="scale" scale9Grid="14,8,87,50"/>
+		<e:Image x="382" y="207" source="cm_Input_QianSe_png" width="82" height="82" fillMode="scale" scale9Grid="14,8,87,50"/>
+		<e:Image x="476" y="207" source="cm_Input_QianSe_png" width="82" height="82" fillMode="scale" scale9Grid="14,8,87,50"/>
+		<e:Image x="569" y="207" source="cm_Input_QianSe_png" width="82" height="82" fillMode="scale" scale9Grid="14,8,87,50"/>
+		<e:Label text="请输入竞赛ID:" x="271.68" y="154.33" height="60" size="36" fontFamily="Microsoft YaHei" width="250" textColor="0x81511c"/>
+		<e:Group id="numList" height="0" width="0">
+			<e:Label id="text1" text="1" x="123" y="217" height="60" size="60" fontFamily="Microsoft YaHei" width="40" textColor="0xba3601" scaleX="1" scaleY="1"/>
+			<e:Label id="text2" text="2" x="216" y="217" height="60" size="60" fontFamily="Microsoft YaHei" width="40" textColor="0xBA3601" scaleX="1" scaleY="1"/>
+			<e:Label id="text3" text="3" x="311" y="217" height="60" size="60" fontFamily="Microsoft YaHei" width="40" textColor="0xBA3601" scaleX="1" scaleY="1"/>
+			<e:Label id="text4" text="4" x="406" y="217" height="60" size="60" fontFamily="Microsoft YaHei" width="40" textColor="0xBA3601" scaleX="1" scaleY="1"/>
+			<e:Label id="text5" text="5" x="499" y="217" height="60" size="60" fontFamily="Microsoft YaHei" width="40" textColor="0xBA3601" scaleX="1" scaleY="1"/>
+			<e:Label id="text6" text="6" x="593" y="217" height="60" size="60" fontFamily="Microsoft YaHei" width="40" textColor="0xBA3601" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="btnList" x="0" y="0" scaleX="1" scaleY="1" height="0" width="0">
+			<e:Button id="zero" label="" x="272.5" y="692" scaleY="1.2" skinName="mojingskins.YellowButton2Skin" scaleX="1"/>
+			<e:Button id="one" label="" x="50.5" y="344" scaleY="1.2" skinName="mojingskins.YellowButton2Skin" scaleX="1"/>
+			<e:Button id="two" label="" x="272.5" y="344" scaleY="1.2" skinName="mojingskins.YellowButton2Skin" scaleX="1"/>
+			<e:Button id="three" label="" x="492" y="344" scaleY="1.2" skinName="mojingskins.YellowButton2Skin" scaleX="1"/>
+			<e:Button id="four" label="" x="50.5" y="456" scaleY="1.2" skinName="mojingskins.YellowButton2Skin" scaleX="1"/>
+			<e:Button id="five" label="" x="272.5" y="456" scaleY="1.2" skinName="mojingskins.YellowButton2Skin" scaleX="1"/>
+			<e:Button id="six" label="" x="492" y="456" scaleY="1.2" skinName="mojingskins.YellowButton2Skin" scaleX="1"/>
+			<e:Button id="seven" label="" x="50.5" y="574" scaleY="1.2" skinName="mojingskins.YellowButton2Skin" scaleX="1"/>
+			<e:Button id="eight" label="" x="272.5" y="574" scaleY="1.2" skinName="mojingskins.YellowButton2Skin" scaleX="1"/>
+			<e:Button id="nine" label="" x="492" y="574" scaleY="1.2" skinName="mojingskins.YellowButton2Skin" scaleX="1"/>
+			<e:Button id="clear" label="" x="50.5" y="692" scaleY="1.2" skinName="mojingskins.GreenButton2Skin" scaleX="1"/>
+			<e:Button id="delete" label="" x="492" y="692" scaleY="1.2" skinName="mojingskins.RedButton2Skin" scaleX="1"/>
+		</e:Group>
+		<e:Group id="labelList" scaleX="1" scaleY="1" height="0" width="0">
+			<e:Label text="0" x="363.79" y="712.26" size="60" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			<e:Label text="1" x="140" y="363" size="60" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			<e:Label text="2" x="362" y="363" size="60" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			<e:Label text="3" x="581" y="363" size="60" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			<e:Label text="4" x="140" y="478.5" size="60" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			<e:Label text="5" x="362" y="478.5" size="60" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			<e:Label text="6" x="581" y="478.5" size="60" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			<e:Label text="7" x="140" y="596.5" size="60" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			<e:Label text="8" x="362" y="596.5" size="60" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			<e:Label text="9" x="581" y="596.5" size="60" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			<e:Label text="重 输" x="105.34" y="714.33" size="48" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			<e:Label text="删 除" x="544.98" y="713.13" size="48" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Panel>
+</e:Skin>

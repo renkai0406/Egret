@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="longhudoumatchpage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel id="mainPanel" x="17.48" y="321.08" skinName="mojingskins.Panel2Skin">
+		<e:Image x="277.05" y="32.12" source="title_LongHuDou_png"/>
+		<e:Label text="正在匹配合适的对手..." x="224.21" y="225.4" size="30" fontFamily="Microsoft YaHei" textColor="0x985003"/>
+		<e:Button id="canelMatch" label="" x="229.84" y="429.97" scaleX="1" scaleY="1" skinName="mojingskins.RedButton1Skin"/>
+		<e:Label text="取消匹配" x="282.95" y="452.72" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x683c23" textColor="0xfffcea" size="36"/>
+		<e:ProgressBar x="88" y="280" skinName="mojingskins.MatchProgressBarSkin"/>
+	</e:Panel>
+</e:Skin>

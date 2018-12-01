@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="messagepage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Panel id="mainPanel" x="0" y="126" skinName="mojingskins.Panel3Skin">
+		<e:Image x="314" y="37" source="rw_text_Message_png"/>
+		<e:Label text="最近一个月数据" x="297" y="135" size="22" fontFamily="Microsoft YaHei" textColor="0x8f7a6d"/>
+		<e:Rect id="title" width="692" height="53" x="30" y="171" fillColor="0x997c5f" fillAlpha="0.5" locked="true"/>
+		<e:Rect width="692" x="30" y="224" fillColor="0x997c5f" fillAlpha="0.2" height="598" locked="true"/>
+		<e:Label text="收益来源" x="94" y="185" size="26" fontFamily="Microsoft YaHei" textColor="0x572f17"/>
+		<e:Label text="收益金额" x="327.68" y="185" size="26" fontFamily="Microsoft YaHei" textColor="0x572f17"/>
+		<e:Label text="时间" x="583.68" y="185" size="26" fontFamily="Microsoft YaHei" textColor="0x572f17"/>
+		<e:Label id="today" text="今日累计收益:" x="30" y="844" size="22" fontFamily="Microsoft YaHei" textColor="0x572F17"/>
+		<e:Label id="todayBangJing" text="5000" x="299.36" y="844" size="22" fontFamily="Microsoft YaHei" textColor="0x572F17"/>
+		<e:Label id="todayMojing" text="5000" x="199.36" y="844" size="22" fontFamily="Microsoft YaHei" textColor="0x572F17"/>
+		<e:Image source="Common_json.icon_BangJing" x="270" y="838" scaleX="0.3" scaleY="0.3"/>
+		<e:Image source="Common_json.icon_MoJing" x="170" y="838" scaleX="0.3" scaleY="0.3"/>
+		<e:Label id="three" text="三日累计收益:" x="30" y="890" size="22" fontFamily="Microsoft YaHei" textColor="0x572F17"/>
+		<e:Label id="threeBangJing" text="5000" x="299.36" y="890" size="22" fontFamily="Microsoft YaHei" textColor="0x572F17"/>
+		<e:Label id="threeMoJing" text="5000" x="199.36" y="890" size="22" fontFamily="Microsoft YaHei" textColor="0x572F17"/>
+		<e:Image source="Common_json.icon_BangJing" x="270" y="882" scaleX="0.3" scaleY="0.3"/>
+		<e:Image source="Common_json.icon_MoJing" x="170" y="882" scaleX="0.3" scaleY="0.3"/>
+		<e:Label id="yesterday" text="昨日累计收益:" x="395.31" y="844" size="22" fontFamily="Microsoft YaHei" textColor="0x572F17"/>
+		<e:Label id="yesterdayBangJing" text="5000" x="664.67" y="844" size="22" fontFamily="Microsoft YaHei" textColor="0x572F17"/>
+		<e:Label id="yesterdayMoJing" text="5000" x="564.67" y="844" size="22" fontFamily="Microsoft YaHei" textColor="0x572F17"/>
+		<e:Image source="Common_json.icon_BangJing" x="635" y="838" scaleX="0.3" scaleY="0.3"/>
+		<e:Image source="Common_json.icon_MoJing" x="535" y="838" scaleX="0.3" scaleY="0.3"/>
+		<e:Label id="week" text="七日累计收益:" x="396" y="890" size="22" fontFamily="Microsoft YaHei" textColor="0x572F17"/>
+		<e:Label id="weekBangJing" text="5000" x="665.36" y="890" size="22" fontFamily="Microsoft YaHei" textColor="0x572F17"/>
+		<e:Label id="weekMoJing" text="5000" x="565.36" y="890" size="22" fontFamily="Microsoft YaHei" textColor="0x572F17"/>
+		<e:Image source="Common_json.icon_BangJing" x="635" y="882" scaleX="0.3" scaleY="0.3"/>
+		<e:Image source="Common_json.icon_MoJing" x="535" y="882" scaleX="0.3" scaleY="0.3"/>
+		<e:Scroller width="692" height="598" x="30" y="224" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="on">
+			<e:List id="list_data"/>
+		</e:Scroller>
+	</e:Panel>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="loadingpage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="164442410bc"/>
+	<e:Panel left="0" right="0" top="0" bottom="0">
+		<e:Image source="dl_Image_BG_jpg" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<ns1:LoadingBar1 id="lb1Loading" width="750" height="142" y="742.67" anchorOffsetX="0" anchorOffsetY="0" skinName="LoadingBar1Skin" horizontalCenter="0" x="0" scaleX="1" scaleY="1"/>
+	</e:Panel>
+</e:Skin>

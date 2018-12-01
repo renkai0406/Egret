@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mojingskins.Panel7Skin" minHeight="230" minWidth="450" xmlns:e="http://ns.egret.com/eui" width="802" height="1257">
+    <e:Image bottom="1"   source="Common_json.cm_Frame_TC2" scale9Grid="138,88,488,50" width="802" height="1207" x="0"/>
+    <e:Group id="moveArea" y="28" x="249">
+        <e:Image bottom="-46"  source="Common_json.cm_BiaoTiDi1" x="2"/>
+        <e:Label id="titleDisplay" size="20" fontFamily="Tahoma" textColor="0xFFFFFF"
+                 wordWrap="false" left="15" right="5" verticalCenter="0"/>
+    </e:Group>
+    <e:Button id="closeButton" label="" horizontalCenter="-311.5" y="30">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Common_json.cm_Btn_FanHui" source.down="Common_json.cm_Btn_FanHui" source.disabled="Common_json.cm_Btn_FanHui"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+</e:Skin>

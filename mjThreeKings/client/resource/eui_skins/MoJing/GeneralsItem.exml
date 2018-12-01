@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mojingskins.GeneralsItem" width="226" height="303" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel left="0" right="0" top="0" bottom="0">
+		<e:Image source="Common_json.cm_Frame_WuJiang" y="5.5" horizontalCenter="0"/>
+		<e:Image id="img_generals" y="5.5" horizontalCenter="0" x="0" width="218" height="243" anchorOffsetY="0" source="{data.img}"/>
+		<e:Image source="Common_json.cm_WuJiang_MingZiDi" y="244.33" horizontalCenter="1"/>
+		<e:Label text="{data.name}" y="258.41" fontFamily="Microsoft YaHei" size="26" textColor="0x5d2610" horizontalCenter="0"/>
+		<e:ViewStack id="vs_tag" width="63" height="50" x="0" y="10" left="0">
+			<e:Image source="Common_json.cm_WuJiang_Shu" y="0" left="0" x="0" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image source="Common_json.cm_WuJiang_Wei" y="0" left="0" x="0" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image source="Common_json.cm_WuJiang_Wu" y="0" left="0" x="0" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image source="Common_json.cm_WuJiang_QuanXiong" y="0" left="0" x="0" scaleX="1" scaleY="1" visible="false"/>
+		</e:ViewStack>
+		<e:Group id="group_star" width="43" height="242" x="175.5" anchorOffsetY="0" top="0">
+			<e:Button label="" y="10" horizontalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="Common_json.cm_WuJiang_xingxing1" source.disabled="Common_json.cm_WuJiang_xingxing2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button label="" y="46" horizontalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="Common_json.cm_WuJiang_xingxing1" source.disabled="Common_json.cm_WuJiang_xingxing2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button label="" y="82" horizontalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="Common_json.cm_WuJiang_xingxing1" source.disabled="Common_json.cm_WuJiang_xingxing2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button label="" y="118" horizontalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="Common_json.cm_WuJiang_xingxing1" source.disabled="Common_json.cm_WuJiang_xingxing2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button label="" y="154" horizontalCenter="0" enabled="false">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="Common_json.cm_WuJiang_xingxing1" source.disabled="Common_json.cm_WuJiang_xingxing2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button label="" y="190" enabled="false" x="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="Common_json.cm_WuJiang_xingxing1" source.disabled="Common_json.cm_WuJiang_xingxing2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Image source="Common_json.cm_FenGeXian2" y="245.34" left="0" right="0" scale9Grid="112,4,13,2"/>
+	</e:Panel>
+
+</e:Skin>

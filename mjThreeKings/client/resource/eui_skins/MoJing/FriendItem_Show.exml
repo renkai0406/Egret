@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mojingskins.FriendItem_Show" width="726" height="188" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="165516f7372" ></w:Config>
+
+	<e:Panel width="726" height="188" x="0" y="0" skinName="mojingskins.PanelBack" bottom="5" top="5">
+		<e:Button id="btn_info" label="个人信息" x="510.66999999999996" y="10.34" skinName="mojingskins.YellowButton2Skin" anchorOffsetX="0" width="188" anchorOffsetY="0" height="82.01" scaleX="1" scaleY="1"/>
+		<e:Button id="btn_delete" label="删除好友" x="511.34" y="97.66999999999999" anchorOffsetX="0" width="188" anchorOffsetY="0" height="82.01" skinName="mojingskins.RedButton2Skin" scaleX="1" scaleY="1"/>
+		<e:Image source="Common_json.Temp_TouXiangKuang" x="29.649999999999995" y="18.33" scaleX="1" scaleY="1"/>
+		<e:Image id="img_mask" x="45" y="39.66" scaleX="1" scaleY="1" source="Common_json.Temp_TouXiangZheZhao"/>
+		<e:Image id="img_head" x="45" y="39.66" scaleX="1" scaleY="1" source="{data.img}"/>
+		<e:Label x="196" y="26.99" fontFamily="Microsoft YaHei" size="28" textColor="0x3A2213" scaleX="1" scaleY="1" text="{data.name}"/>
+		<e:Label text="ID：" x="198.99" y="61.98" size="28" textColor="0x785D46" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+		<e:Label x="255.65" y="61.98" size="28" textColor="0x785D46" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" text="{data.id}"/>
+		<e:Label text="等级：" x="198.66" y="95.64" size="28" textColor="0x785D46" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+		<e:Label x="282.65999999999997" y="95.64" size="28" textColor="0x785D46" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" text="{data.grade}"/>
+		<e:Label text="官职：" x="198.66" y="128.64" size="28" textColor="0x785D46" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+		<e:Label x="282.65999999999997" y="128.64" size="28" textColor="0x785D46" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" text="{data.office}"/>
+	</e:Panel>
+</e:Skin>

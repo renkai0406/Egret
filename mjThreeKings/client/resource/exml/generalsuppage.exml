@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="generalsuppage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel id="mainPanel" width="751" height="969.67" anchorOffsetX="0" anchorOffsetY="0" skinName="mojingskins.Panel3Skin" x="0" y="127">
+		<e:Image source="sx_Title_ShengXing_png" y="35.16" scaleX="1" scaleY="1" horizontalCenter="-2.5"/>
+		<e:Panel width="678" height="332" x="36" y="173.5" skinName="mojingskins.PanelBack">
+			<e:Image source="wj_Image_JianTou_png" x="235" y="118.5"/>
+			<ns1:ListViewBase id="lvb_low" width="226" height="303" x="46" y="14"/>
+			<ns1:ListViewBase id="lvb_high" width="226" height="303" x="401" y="14"/>
+		</e:Panel>
+		<e:Panel width="678" height="196" y="567.47" skinName="mojingskins.PanelBack" horizontalCenter="0">
+			<e:Image source="wj_Title_TiaoJian_png" x="42" y="-22.470000000000027" scaleX="1" scaleY="1"/>
+			<e:Label text="消耗将魂令：" x="49.4" y="57.67" fontFamily="Microsoft YaHei" size="28" textColor="0x6a4431"/>
+			<e:Label text="提升星级可以大幅提升武将实力！" x="48.72" y="114.99" fontFamily="Microsoft YaHei" size="28" textColor="0x6A4431"/>
+			<e:Label id="label_jianghun" text="999/12" x="270.08" y="56" fontFamily="Microsoft YaHei" size="28" textColor="0x6A4431"/>
+		</e:Panel>
+		<e:Button id="btn_cancel" label="取消" x="105" y="809" skinName="mojingskins.RedButton1Skin"/>
+		<e:Button id="btn_submit" label="确定" x="397" y="808" skinName="mojingskins.GreenButton1Skin"/>
+	</e:Panel>
+</e:Skin>

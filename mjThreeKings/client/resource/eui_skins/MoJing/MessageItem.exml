@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="message" width="692" height="53" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel width="692" height="53" x="0" y="0">
+		<e:Label id="origin" text="群雄争霸一开赛收入" x="-7" y="16" width="250" height="45" textAlign="center" size="22" fontFamily="Microsoft YaHei" textColor="0x8f7a6d"/>
+		<e:Label id="income" text="+2000魔晶" x="249" y="16" width="200" height="45" textAlign="center" size="22" fontFamily="Microsoft YaHei" textColor="0x8F7A6D"/>
+		<e:Label id="time" text="2008/8/21 14:34:28" x="474" y="16" width="220" height="45" textAlign="center" size="22" fontFamily="Microsoft YaHei" textColor="0x8F7A6D"/>
+	</e:Panel>
+</e:Skin>

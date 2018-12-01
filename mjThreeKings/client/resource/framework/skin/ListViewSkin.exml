@@ -1,0 +1,12 @@
+<e:Skin class="ListViewSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <w:HostComponent name = "ListViewBase"/>
+    <e:Scroller id="scroller" width="400" height="600" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0">
+		<e:viewport>
+			<e:List id="list" height="0">
+				<e:layout> 
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:viewport>
+	</e:Scroller>
+</e:Skin>

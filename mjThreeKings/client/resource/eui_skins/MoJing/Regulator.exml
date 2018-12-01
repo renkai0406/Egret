@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RegulatorSkin" width="302" height="66" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="165849a0ef2" ></w:Config>
+	<e:Image verticalCenter="0" left="0" right="0" source="cm_Input_QianSe_ra_png" scale9Grid="24,27,15,11"/>
+	<e:Image id="btn_add" source="icon_jiahao_png" x="239" y="2.5"/>
+	<e:Image id="btn_reduce" source="icon_jianshao_png" x="1" y="2.5"/>
+	<e:Label id="label_volume" text="2000" x="104" y="15" fontFamily="Microsoft YaHei" textColor="0xc94e01" size="42"/>
+</e:Skin>

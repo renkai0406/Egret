@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mojingskins.YellowProgressBarSkinSkin" width="244" height="36" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1658976ec3e" ></w:Config>
+	<e:Panel width="244" height="36" verticalCenter="0" left="0">
+		<e:Image id="img_back" source="tiao_di_png" width="240" scale9Grid="17,15,7,2" verticalCenter="0" x="2"/>
+		<e:ViewStack id="vs_state" left="0" right="0" top="0" bottom="0" scaleX="1" scaleY="1" selectedIndex="1">
+			<e:Group id="group_will" width="100%" height="100%" name="Group" x="0" y="0" scaleX="1" scaleY="1">
+				<e:Image id="img_front" source="tiao_yellow_png" verticalCenter="0" width="240" scale9Grid="16,16,5,2" x="2" y="2" scaleX="1" scaleY="1"/>
+				<e:Label id="label_progress" text="20%" fontFamily="Microsoft YaHei" verticalCenter="0" y="3" scaleX="1" scaleY="1" horizontalCenter="0" x="91"/>
+			</e:Group>
+			<e:Group id="group_ing" name="Group" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1">
+				<e:Image source="tial_green_png" x="2" y="2" width="240" height="32" verticalCenter="0" scale9Grid="19,14,3,4"/>
+				<e:Label text="已开赛" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" horizontalCenter="0" x="77" verticalCenter="-2" y="3"/>
+			</e:Group>
+			<e:Group id="group_end" name="Group" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1">
+				<e:Image source="tiao_red_png" x="2" y="2" width="240" height="32" verticalCenter="0" scale9Grid="18,14,3,6"/>
+				<e:Label text="已结束" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" horizontalCenter="0" x="77" verticalCenter="-2" y="3"/>
+			</e:Group>
+		</e:ViewStack>
+	</e:Panel>
+</e:Skin>

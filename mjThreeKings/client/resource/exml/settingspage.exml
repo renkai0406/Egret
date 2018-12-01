@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	
+<e:Skin class="settingspage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1653650558d"/>
+	<e:Panel id="mainPanel" width="713" height="604" skinName="mojingskins.Panel2Skin" x="19" y="319">
+		<e:Image x="303" y="41" source="sz_Title_Set_png"/>
+		<e:Panel width="638" height="141" y="174" horizontalCenter="0" x="37" scaleX="1" scaleY="1">
+			<e:Image id="img_amp" source="sz_Btn_SoundOn_png" x="523" y="35"/>
+			<e:Image source="sz_Text_Music_png" x="34" y="45"/>
+			<ns1:SettingSlider id="slider_amp" width="360" height="100" y="20.5" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		</e:Panel>
+		<e:Panel width="638" height="141" y="340" horizontalCenter="2.5" x="47" scaleX="1" scaleY="1">
+			<e:Image id="img_effect" source="sz_Btn_SoundOff_png" x="521" y="37"/>
+			<e:Image source="sz_Text_SoundE_png" x="33.68" y="48.01"/>
+			<ns1:SettingSlider id="slider_effect" width="360" height="100" y="17.51" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+
+		</e:Panel>
+	</e:Panel>
+</e:Skin>
+			

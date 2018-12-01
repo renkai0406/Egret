@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="loginselectpage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel width="750" x="0" height="1334" y="0">
+		<e:Image source="dl_Image_BG_jpg" left="0" right="0" top="0" bottom="0"/>
+		<e:Panel width="301" height="74" x="225" y="613">
+			<e:Image source="dl_Btn_ShouJiDengLu_png" y="0" x="0" scaleX="1" scaleY="1"/>
+			<e:Group id="groupPhoneLogin" width="301" height="74" x="0" y="0" horizontalCenter="0.5" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		</e:Panel>
+		<e:Button id="btnWechatLogin" label="" x="137" y="768" width="477" height="227" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dl_Btn_WeiXinDengLu_png" source.down="dl_Btn_WeiXinDengLu_png" source.disabled="dl_Btn_WeiXinDengLu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Panel>
+</e:Skin>

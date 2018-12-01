@@ -1,0 +1,4 @@
+// TypeScript file
+interface INetMsg{
+    
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HistoryLHDItem" width="710" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel width="688" height="288" x="11" y="12">
+		<e:Image source="zhanji_di1_png" width="688" scale9Grid="10,9,39,39" height="288" x="0.33" y="0"/>
+		<e:Image x="-1" y="-2" source="zhanchang_png"/>
+		<e:Label id="roomName" text="【只能吃虾米】" size="26" textAlign="center" width="200" height="26" x="171" y="11" textColor="0x6a3906" fontFamily="Microsoft YaHei"/>
+		<e:Label id="roomID" text="588869" size="24" textAlign="center" width="150" height="26" x="46" y="24" textColor="0xffffff" fontFamily="Microsoft YaHei"/>
+		<e:Label id="time" text="2018-08-05 14:56:12" size="18" textAlign="center" width="200" height="26" x="182" y="43" fontFamily="Microsoft YaHei" textColor="0x6a3906"/>
+		<e:Image x="683.69" y="284" scaleY="1" scaleX="1" source="shanglandi_png" width="340" height="210" scale9Grid="7,7,46,46" rotation="180"/>
+		<e:Image x="345.68" y="284" scaleY="1" scaleX="1" source="shanghongdi_png" fillMode="scale" width="340" height="210" scale9Grid="7,7,46,46" rotation="180"/>
+		<e:Button id="datails" label="" x="384.35" y="8" skinName="mojingskins.GreenButton2Skin" scaleX="0.7" scaleY="0.7"/>
+		<e:Label text="战绩详情" size="30" textAlign="left" width="120" height="40" x="398.01" y="20" fontFamily="Microsoft YaHei" textColor="0xeafffb" stroke="2" strokeColor="0x216c64"/>
+		<e:Button id="share" label="" x="534.67" y="8" scaleX="0.7" scaleY="0.7" skinName="mojingskins.YellowButton2Skin"/>
+		<e:Label text="分 享" size="30" textAlign="left" width="100" height="40" x="578.33" y="20" fontFamily="Microsoft YaHei" textColor="0xfffcea" stroke="2" strokeColor="0x9e4f24"/>
+		<e:Label text="收益:" size="24" textAlign="left" width="60" height="40" x="42.6" y="248" fontFamily="Microsoft YaHei" textColor="0xffd34e"/>
+		<e:Label id="playerIncome1" text="+500" size="24" textAlign="left" width="120" height="40" x="126.06" y="248" fontFamily="Microsoft YaHei" textColor="0xFFD34E"/>
+		<e:Label text="收益:" size="24" textAlign="left" width="60" height="40" x="498" y="248" fontFamily="Microsoft YaHei" textColor="0xFFD34E"/>
+		<e:Label id="playerIncome2" text="-500" size="24" textAlign="left" width="120" height="40" x="584" y="248" fontFamily="Microsoft YaHei" textColor="0xFFD34E"/>
+		<e:Image x="252.33" y="90.01" scaleY="1" scaleX="1" source="vs_png"/>
+		<e:Image id="playerIcon1" x="133" y="87" scaleY="1" scaleX="1" source="vs_png" width="90" height="90"/>
+		<e:Image id="playerIcon2" x="472.32" y="87" scaleY="1" scaleX="1" source="vs_png" width="90" height="90"/>
+		<e:Image id="win" x="35.73" y="105" scaleY="1" scaleX="1" source="ICON_Sheng_png"/>
+		<e:Image id="lose" x="593.71" y="105" scaleY="1" scaleX="1" source="ICON_Bai_png"/>
+		<e:Label id="playerName1" text="玩家的名字" x="108" y="185" size="20" fontFamily="Microsoft YaHei" textAlign="center" width="140" height="25"/>
+		<e:Label id="playerID1" text="ID:564899" x="108" y="215" width="140" height="25" fontFamily="Microsoft YaHei" size="20" textAlign="center"/>
+		<e:Label id="playerName2" text="玩家的名字" x="450" y="185" width="140" height="25" size="20" fontFamily="Microsoft YaHei" textAlign="center"/>
+		<e:Label id="playerID2" text="ID:56498" x="450" y="215" width="140" height="25" size="20" textAlign="center"/>
+		<e:Image source="Common_json.icon_MoJing" x="98.69" y="245.32" width="100" scaleX="0.3" scaleY="0.3"/>
+		<e:Image source="Common_json.icon_MoJing" x="554.69" y="245.32" width="100" scaleX="0.3" scaleY="0.3"/>
+	</e:Panel>
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="retrievepage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel id="mainPanel" width="713" height="604" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="-46" skinName="mojingskins.Panel2Skin">
+		<e:Panel id="panel_first" height="313" anchorOffsetY="0" width="647" enabled="true" scaleX="1" scaleY="1" verticalCenter="-16.5" horizontalCenter="0" skinName="mojingskins.PanelBack">
+			<e:Label text="手机号码" y="52.06" size="28" textColor="0x492D20" fontFamily="Microsoft YaHei" x="92.39"/>
+			<e:Label text="验证码" y="163.41" size="28" textColor="0x492D20" fontFamily="Microsoft YaHei" x="92.37"/>
+			<e:TextInput id="tinput_phone" width="464" height="66" y="82.52" enabled="true" x="95.42" skinName="mojingskins.TextInputSkin" prompt="请输入您的手机号码"/>
+			<e:TextInput id="tinput_identify" width="234" height="66" y="194.66" enabled="true" x="95.41" skinName="mojingskins.TextInputSkin" prompt="请输入验证码"/>
+			<e:Button id="btn_getIdentity" label="验证" x="334.82" y="195.06" height="61.46" anchorOffsetX="0" width="144.85" skinName="mojingskins.GreenButton1Skin" anchorOffsetY="0"/>
+		</e:Panel>
+		<e:Panel id="panel_second" height="313" y="129" anchorOffsetY="0" width="647" enabled="false" scaleX="1" scaleY="1" horizontalCenter="0" x="33" skinName="panel" locked="true" visible="false">
+			<e:Label text="新的密码" y="32.52" size="28" textColor="0x492D20" fontFamily="Microsoft YaHei" x="87.85" scaleX="1" scaleY="1"/>
+			<e:TextInput id="tinput_password" width="464" height="66" y="63.85" skinName="mojingskins.TextInputSkin" enabled="true" scaleX="1" scaleY="1" x="90" prompt="请输入新密码"/>
+			<e:Label text="确认密码" y="143.4" size="28" textColor="0x492D20" fontFamily="Microsoft YaHei" x="87.85" scaleX="1" scaleY="1"/>
+			<e:TextInput id="tinput_repeat" width="464" height="66" y="175.97" skinName="mojingskins.TextInputSkin" enabled="true" scaleX="1" scaleY="1" x="91.51" prompt="再次输入新密码"/>
+		</e:Panel>
+		<e:Button id="btn_submit" label="下一步" height="80" width="222" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-4.5" verticalCenter="200" skinName="mojingskins.GreenButton1Skin"/>
+		<e:Image source="Common_json.cm_FenGeXian2" width="670" fillMode="scale" horizontalCenter="0.5" verticalCenter="138" scaleX="1.2" scale9Grid="21,1,187,6"/>
+		<e:Image source="zhmm_text_ZhaoHuiMiMa_png" x="256.43" y="38.65"/>
+	</e:Panel>
+</e:Skin>

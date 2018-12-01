@@ -1,0 +1,40 @@
+{"mc":{
+	"loadanimation":{
+		"frameRate":24,
+		"labels":[
+			{"name":"load_anim","frame":1,"end":4}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"jz_TeXiao_ZhuJian000",
+			"x":35,
+			"y":0
+			},
+			{
+			"res":"jz_TeXiao_ZhuJian001",
+			"x":17,
+			"y":6
+			},
+			{
+			"res":"jz_TeXiao_ZhuJian002",
+			"x":47,
+			"y":0
+			},
+			{
+			"res":"jz_TeXiao_ZhuJian003",
+			"x":0,
+			"y":0
+			}
+			]
+}},
+	"res":{
+		"jz_TeXiao_ZhuJian000":{"x":237,"y":154,"w":197,"h":156},
+		"jz_TeXiao_ZhuJian001":{"x":237,"y":1,"w":215,"h":151},
+		"jz_TeXiao_ZhuJian003":{"x":1,"y":1,"w":234,"h":157},
+		"jz_TeXiao_ZhuJian002":{"x":1,"y":160,"w":185,"h":148}
+	}}

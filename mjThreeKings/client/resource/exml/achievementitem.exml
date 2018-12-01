@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="achievementitem" width="688" height="202" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="688" height="202" x="0" y="0">
+		<e:Rect width="688" height="202" x="0" y="0" fillColor="0x997c5f" strokeColor="0x997c5f" fillAlpha="0.2" strokeAlpha="0.2"/>
+		<e:Image width="150" height="150" x="11" y="11"/>
+		<e:Image x="183" y="20" source="cj_XiaoBiaoTiDi_png" scale9Grid="0,4,2,29" anchorOffsetX="0" width="238"/>
+		<e:Label id="nameTxt" text="披荆斩棘" x="188" y="23" size="30" fontFamily="SimHei" textColor="0xfff1dd" stroke="2"/>
+		<e:Label id="conditionTxt" text="参与龙虎斗" x="182" y="68" size="24" fontFamily="Microsoft YaHei" textColor="0x572f17"/>
+		<e:Label id="countTxt" text="10次" x="407" y="67" size="24" textColor="0x8a3601" fontFamily="Microsoft YaHei"/>
+		<e:ProgressBar id="progress" x="182" y="95" skinName="mojingskins.RedProgressBarSkin" enabled="true" minimum="0"/>
+		<e:Image x="176" y="123" source="rw_JiangLi_png" scaleX="0.7" scaleY="0.7"/>
+		<e:Button id="getButton" label="领取奖励" x="511" y="69" skinName="mojingskins.YellowButton2Skin" scaleX="0.8" scaleY="0.8"/>
+		<e:Image id="yilingquImg" x="516" y="47" source="yilingqu_png"/>
+		<e:Image id="jinxingzhongImg" x="514" y="74" source="JingXingZhong_png"/>
+		<e:Image id="star0" x="10" y="162" source="Common_json.cm_WuJiang_xingxing2" scaleX="0.7" scaleY="0.7"/>
+		<e:Image x="40" y="162" source="Common_json.cm_WuJiang_xingxing2" scaleX="0.7" scaleY="0.7" id="star1"/>
+		<e:Image x="70" y="162" source="Common_json.cm_WuJiang_xingxing2" scaleX="0.7" scaleY="0.7" id="star2"/>
+		<e:Image x="100" y="162" source="Common_json.cm_WuJiang_xingxing2" scaleX="0.7" scaleY="0.7" id="star3"/>
+		<e:Image x="130" y="162" source="Common_json.cm_WuJiang_xingxing2" scaleX="0.7" scaleY="0.7" id="star4"/>
+	</e:Group>
+</e:Skin>

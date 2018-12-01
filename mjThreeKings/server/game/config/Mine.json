@@ -1,0 +1,6 @@
+{"1":{"Id":1,"Name":"\u6C49\u4E2D\u77FF\u533A","Unlock":[1],"Level":1,"Level_1":100,"ItemType":1,"MinItemCount":2,"MaxItemCount":5,"ExtraItemType":2,"MinRate":0.0015,"MaxRate":0.003},
+"2":{"Id":2,"Name":"\u5F90\u5DDE\u77FF\u533A","Unlock":[1,2],"Level":3,"Level_1":200,"ItemType":1,"MinItemCount":3,"MaxItemCount":6,"ExtraItemType":2,"MinRate":0.0016,"MaxRate":0.0031},
+"3":{"Id":3,"Name":"\u6B66\u90FD\u77FF\u533A","Unlock":[1,2],"Level":10,"Level_1":300,"ItemType":1,"MinItemCount":4,"MaxItemCount":7,"ExtraItemType":2,"MinRate":0.0018,"MaxRate":0.0033},
+"4":{"Id":4,"Name":"\u5BFF\u6625\u77FF\u533A","Unlock":[1,2],"Level":15,"Level_1":400,"ItemType":1,"MinItemCount":5,"MaxItemCount":8,"ExtraItemType":2,"MinRate":0.002,"MaxRate":0.0035},
+"5":{"Id":5,"Name":"\u5EFA\u5B81\u77FF\u533A","Unlock":[1,2],"Level":20,"Level_1":500,"ItemType":1,"MinItemCount":6,"MaxItemCount":9,"ExtraItemType":2,"MinRate":0.0022,"MaxRate":0.0035},
+"6":{"Id":6,"Name":"\u4E39\u9633\u77FF\u533A","Unlock":[1,2],"Level":35,"Level_1":600,"ItemType":1,"MinItemCount":7,"MaxItemCount":10,"ExtraItemType":2,"MinRate":0.0024,"MaxRate":0.0035}}

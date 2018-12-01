@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mojingskins.MatchProgressBarSkin" width="548" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" minHeight="28" minWidth="273" maxWidth="273" maxHeight="28">
+	<e:Image id="img_back" source="jindutiao_di_png" x="5" y="-12.5"/>
+	<e:Image id="img_front" source="jindutiao_png" x="17.5" y="10"/>
+</e:Skin>

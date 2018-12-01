@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+		
+
+<e:Skin class="generalspage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel width="796" height="1016" y="144.08" anchorOffsetX="0" anchorOffsetY="0" skinName="mojingskins.Panel1Skin" x="-23">
+			
+		<e:Group height="68.5" y="9" anchorOffsetY="0" left="0" right="0">
+			<e:RadioButton id="rbtn_sort" label="所有" x="26.19" y="0.52" skinName="mojingskins.TabButton1Skin" anchorOffsetX="0" width="149.03" anchorOffsetY="0" height="70.99" value="0" selected="true"/>
+			<e:RadioButton label="蜀国" x="173.99" y="0.52" skinName="mojingskins.TabButton1Skin" anchorOffsetX="0" width="148.23" anchorOffsetY="0" height="70.99" value="1"/>
+			<e:RadioButton label="群雄" x="619.09" y="0.52" skinName="mojingskins.TabButton1Skin" anchorOffsetX="0" width="149.03" anchorOffsetY="0" height="70.99" value="4"/>
+			<e:RadioButton label="魏国" x="321.59" y="0.12" skinName="mojingskins.TabButton1Skin" anchorOffsetX="0" width="149.03" anchorOffsetY="0" height="70.99" value="2"/>
+			<e:RadioButton label="吴国" x="471.59" y="0.52" skinName="mojingskins.TabButton1Skin" anchorOffsetX="0" width="149.03" anchorOffsetY="0" height="70.99" value="3"/>
+		</e:Group>
+		<ns1:ListViewBase id="lvb_generals" width="716.97" height="816.97" y="110" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+		<e:Image source="Common_json.cm_FenGeXian2" y="920.2" scale9Grid="111,5,6,1" left="0" right="0"/>
+		<e:Group width="315" height="44" x="84" y="938">
+			<e:Image source="Common_json.cm_Frame_HuoBiDi" x="0" y="0" width="315" scale9Grid="43,5,31,34" scaleX="1" scaleY="1"/>
+			<e:Label text="武将总星级:" x="24" y="8" fontFamily="Microsoft YaHei" size="28" scaleX="1" scaleY="1" textColor="0xf6e2bd"/>
+			<e:Image source="Common_json.cm_WuJiang_xingxing1" x="175.4" y="2"/>
+			<e:Label id="label_grade" text="X36" x="224.6" y="9" size="28" textColor="0xffd77a" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+		<e:Group width="277" height="44" x="436" y="939">
+			<e:Image source="Common_json.cm_Frame_HuoBiDi" x="0" y="0" width="277" scale9Grid="43,5,31,34" scaleX="1" scaleY="1"/>
+			<e:Label text="将魂令:" x="24" y="7.34" fontFamily="Microsoft YaHei" size="28" scaleX="1" scaleY="1" textColor="0xF6E2BD"/>
+			<e:Label id="label_jianghun" text="X36" x="182.27" y="7.67" size="28" textColor="0xFFD77A" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+	</e:Panel>
+</e:Skin>

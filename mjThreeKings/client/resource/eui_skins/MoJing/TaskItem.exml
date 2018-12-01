@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mojingskins.TaskItemUI" width="688" height="202" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel width="688" height="212" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" skinName="mojingskins.PanelBack" bottom="5" top="5">
+		<e:Image x="-2" y="-3.6" anchorOffsetY="0" height="53" source="rw_XiaoBiaoTiDi_png"/>
+		<e:Image source="Common_json.cm_FenGeXian1" y="83.69" scaleX="14" horizontalCenter="0"/>
+		<e:Label text="{data.title}" x="51.66" y="5" textColor="0xffffff" fontFamily="Microsoft YaHei" size="30"/>
+		<e:Label text="{data.label}" x="31" y="54" fontFamily="Microsoft YaHei" textColor="0x020100"/>
+
+		<e:Image x="27" y="95" source="EW_JiangLi_png"/>
+		<e:Label id="label_progress" text="{data.progress}" x="534" y="49"/>
+		<e:Panel width="76" height="75" x="161" y="107">
+			<e:Image source="rw_frame_JiangLiKuang_png" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Image left="0" right="0" top="0" bottom="0" x="242" y="107" source="{data.img0}"/>
+			<e:Label text="{data.count0}" x="52.33" y="50.67" size="20" fontFamily="Microsoft YaHei"/>
+		</e:Panel>
+		<e:Panel width="76" height="75" x="242" y="107">
+			<e:Image source="rw_frame_JiangLiKuang_png" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Image left="0" right="0" top="0" bottom="0" x="242" y="107" source="{data.img1}"/>
+			<e:Label text="{data.count1}" x="52.33" y="50.67" size="20" fontFamily="Microsoft YaHei"/>
+		</e:Panel>
+		<e:Panel width="76" height="75" x="323" y="107">
+			<e:Image source="rw_frame_JiangLiKuang_png" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Image left="0" right="0" top="0" bottom="0" x="242" y="107" source="{data.img2}"/>
+			<e:Label x="52.33" y="50.67" size="20" fontFamily="Microsoft YaHei" text="{data.count2}"/>
+		</e:Panel>
+		<e:Panel width="76" height="75" x="403" y="107">
+			<e:Image source="rw_frame_JiangLiKuang_png" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Image left="0" right="0" top="0" bottom="0" x="242" y="107" source="{data.img3}"/>
+			<e:Label x="52.33" y="50.67" size="20" fontFamily="Microsoft YaHei" text="{data.count3}"/>
+		</e:Panel>
+		<e:Button id="btn_operate" label="前往" x="500.22" y="109.11" anchorOffsetX="0" width="166.66" anchorOffsetY="0" height="70.67" skinName="mojingskins.GreenButton1Skin" enabled="true"/>
+		<e:Image id="img_received" x="510" y="35.17" source="yilingqu_png"/>
+	</e:Panel>
+</e:Skin>

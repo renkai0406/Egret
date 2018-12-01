@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mojingskins.Panel1Skin" minHeight="230" minWidth="450" xmlns:e="http://ns.egret.com/eui">
+    <e:Image left="0" right="0" bottom="0"  top="0"  source="Common_json.cm_Frame_TC1" height="1016" scale9Grid="27,108,719,22" width="796"/>
+    <e:Group id="moveArea" left="174" right="172" top="17" height="45">
+        <e:Image left="0" right="0" bottom="0"  top="0" source=""/>
+        <e:Label id="titleDisplay" size="32" fontFamily="SimHei"
+                 wordWrap="false" left="15" right="5" verticalCenter="0" text="" verticalAlign="middle" textAlign="center" textColor="0xe4c39d" stroke="2" strokeColor="0x463021"/>
+    </e:Group>
+    <e:Button id="closeButton" label="" bottom="5" horizontalCenter="0"/>
+</e:Skin>
